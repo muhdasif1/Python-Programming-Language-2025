@@ -50,25 +50,6 @@ Python is used across various fields and industries:
 
 ---
 
-### Basic Python Syntax Example
-
-```python
-# This is a simple Python program
-print("Hello, World!")
-
-# Variables
-name = "Asif"
-age = 20
-
-# Function
-def greet(person):
-    return f"Hello, {person}!"
-
-print(greet(name))
-```
-
----
-
 ### Popular Python Libraries
 
 | Purpose              | Libraries                          |
