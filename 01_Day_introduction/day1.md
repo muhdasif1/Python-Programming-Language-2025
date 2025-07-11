@@ -189,15 +189,15 @@ print(type(x))   # <class 'str'>
 | None     | `NoneType`                |
 
 ---
-### 💬 **Comments in Python**
+### **Comments in Python**
 
-#### 🔹 What is a Comment?
+#### What is a Comment?
 
 A **comment** is a line in a Python program that is **ignored by the interpreter**. Comments are used to explain code, make it more readable, and help developers understand the purpose of the code.
 
 ---
 
-### ✅ **Types of Comments in Python**
+### **Types of Comments in Python**
 
 #### 1. **Single-line Comment**
 
@@ -242,11 +242,11 @@ using triple single quotes.
 '''
 ```
 
-⚠️ These are technically **multi-line strings**, but they’re ignored if not assigned.
+These are technically **multi-line strings**, but they’re ignored if not assigned.
 
 ---
 
-### 💡 **Why Use Comments?**
+### **Why Use Comments?**
 
 * To explain what the code is doing
 * To make complex code easier to understand
