@@ -12,7 +12,7 @@ Its clean syntax and dynamic typing make it ideal for beginners, while its power
 
 ---
 
-### ✅ Why Learn Python?
+### Why Learn Python?
 
 Python is one of the most popular and in-demand programming languages in the world. Here's why:
 
@@ -23,7 +23,7 @@ Python is one of the most popular and in-demand programming languages in the wor
 
 ---
 
-### 🚀 Where is Python Used?
+### Where is Python Used?
 
 Python is used across various fields and industries:
 
@@ -40,7 +40,7 @@ Python is used across various fields and industries:
 
 ---
 
-### 🧠 Key Features of Python
+### Key Features of Python
 
 * **Interpreted Language**: No need for compilation. Code runs directly.
 * **Dynamically Typed**: No need to declare variable types.
@@ -50,7 +50,7 @@ Python is used across various fields and industries:
 
 ---
 
-### 🛠️ Basic Python Syntax Example
+### Basic Python Syntax Example
 
 ```python
 # This is a simple Python program
@@ -69,7 +69,7 @@ print(greet(name))
 
 ---
 
-### 📚 Popular Python Libraries
+### Popular Python Libraries
 
 | Purpose              | Libraries                          |
 | -------------------- | ---------------------------------- |
@@ -82,7 +82,7 @@ print(greet(name))
 
 ---
 
-### 🎯 Career Opportunities with Python
+### Career Opportunities with Python
 
 * Python Developer
 * Data Scientist
@@ -94,7 +94,7 @@ print(greet(name))
 
 ---
 
-### 💡 Fun Fact
+### Fun Fact
 
 > The name **Python** doesn’t come from the snake! It was inspired by the British comedy show *“Monty Python’s Flying Circus”*.
 
