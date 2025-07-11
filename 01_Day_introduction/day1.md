@@ -32,18 +32,16 @@ print("Hello, World!")
 
 ---
 
-### 🔹 Where Python is Used:
+### 🔹 Where Python is Used in Artificial Intelligence:
 
-| Field                | Use Case Example                   |
-| -------------------- | ---------------------------------- |
-| Web Development      | Django, Flask frameworks           |
-| Data Science         | Pandas, NumPy, Matplotlib, Seaborn |
-| Machine Learning     | Scikit-learn, TensorFlow, PyTorch  |
-| Automation/Scripting | Writing bots, automation scripts   |
-| Game Development     | Pygame library                     |
-| Desktop Apps         | Tkinter, PyQt                      |
-
----
-
-Would you like to start learning Python step by step?
+| AI Field                              | How Python is Used                       | Popular Libraries/Tools                      |
+| ------------------------------------- | ---------------------------------------- | -------------------------------------------- |
+| **Machine Learning (ML)**             | Train models to make predictions         | `scikit-learn`, `XGBoost`                    |
+| **Deep Learning**                     | Create neural networks                   | `TensorFlow`, `PyTorch`, `Keras`             |
+| **Natural Language Processing (NLP)** | Work with human language (text/speech)   | `spaCy`, `NLTK`, `Transformers`              |
+| **Computer Vision**                   | Analyze and interpret images/videos      | `OpenCV`, `YOLO`, `Detectron2`               |
+| **AI Chatbots**                       | Build virtual assistants                 | `Rasa`, `Langchain`, `ChatterBot`            |
+| **Reinforcement Learning**            | Train agents through rewards             | `Gym`, `Stable-Baselines3`                   |
+| **Generative AI**                     | Create new content (text, images, music) | `Diffusers`, `Transformers`, `DALL·E`, `GPT` |
+| **Robotics**                          | Control robots using AI                  | `ROS with Python`, `PyRobot`                 |
 
