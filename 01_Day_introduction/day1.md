@@ -1,6 +1,6 @@
 ### Introduction
 
-what is Python?
+### what is Python?
 Python is a high-level programming language for general-purpose programming. It is an open source, interpreted, objected-oriented programming language. Python was created by a Dutch programmer, Guido van Rossum. The name of the Python programming language was derived from a British sketch comedy series, Monty Python's Flying Circus. The first version was released on February 20, 1991.
 
 ---
