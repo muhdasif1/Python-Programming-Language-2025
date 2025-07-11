@@ -1,6 +1,4 @@
-Here is a **full introduction to Python programming**, ideal for beginners or for presentation/documentation purposes:
-
----
+--
 
 ## 🐍 Introduction to Python Programming
 
