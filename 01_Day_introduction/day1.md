@@ -81,7 +81,7 @@ Python is used across various fields and industries:
 
 ---
 
-### 1: What are Data Types in Python?
+### What are Data Types in Python?
 
 **Data types in Python** define the **kind of value** a variable can hold. Python is a **dynamically typed** language, which means you don’t need to declare the data type — Python figures it out automatically when you assign a value.
 
