@@ -16,7 +16,8 @@ Make sure to check the option **"Add Python to PATH"** during installation.
 ---
 ## Python is the most widely used programming language in 2024
 
-![top-python](https://github.com/user-attachments/assets/8851a0c3-aaec-40d4-b3f3-c12a02b630c0)
+![python](https://github.com/user-attachments/assets/ca67cb7b-e2a3-4bb7-a866-e4170ee651e9)
+
 
 ---
 
@@ -39,7 +40,8 @@ For additional learning, check out the highly recommended book:
 
 This book offers a hands-on, project-based approach to mastering Python programming.
 
-![Python Crash Course by Eric Matthes](https://github.com/user-attachments/assets/54ebd08a-1973-458c-b1b3-ff7c50492bf1)
+![python book](https://github.com/user-attachments/assets/efa56575-5dae-48f0-bf1b-b8a6e0829d90)
+
 
 Use the link below to access and download the Python book free of charge via Google Drive 
 [**Python  book free**](https://drive.google.com/file/d/1nZc0HqA2MEiPl4Dy8IA9KLjnnEpy3W4Q/view?usp=sharing)
