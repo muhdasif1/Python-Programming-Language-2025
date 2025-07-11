@@ -189,4 +189,78 @@ print(type(x))   # <class 'str'>
 | None     | `NoneType`                |
 
 ---
+### 💬 **Comments in Python**
 
+#### 🔹 What is a Comment?
+
+A **comment** is a line in a Python program that is **ignored by the interpreter**. Comments are used to explain code, make it more readable, and help developers understand the purpose of the code.
+
+---
+
+### ✅ **Types of Comments in Python**
+
+#### 1. **Single-line Comment**
+
+* Starts with the `#` symbol.
+* Anything after `#` is not executed.
+
+```python
+# This is a single-line comment
+print("Hello, World!")  # This is an inline comment
+```
+
+---
+
+#### 2. **Multi-line Comment**
+
+Python doesn’t have a built-in multi-line comment syntax, but you can use:
+
+##### Option A: Multiple `#` lines
+
+```python
+# This is a multi-line
+# comment using several
+# hash symbols
+```
+
+##### Option B: Triple quotes (used like comments)
+
+```python
+"""
+This is a multi-line comment
+using triple double quotes.
+"""
+```
+
+Or:
+
+```python
+'''
+This is another
+multi-line comment
+using triple single quotes.
+'''
+```
+
+⚠️ These are technically **multi-line strings**, but they’re ignored if not assigned.
+
+---
+
+### 💡 **Why Use Comments?**
+
+* To explain what the code is doing
+* To make complex code easier to understand
+* To temporarily disable parts of code during testing
+* To leave notes or reminders (e.g., TODO)
+
+---
+
+### 📝 Comment Best Practices
+
+✅ Use comments to explain **why**, not just what.
+
+✅ Keep comments **clear and concise**.
+
+❌ Avoid unnecessary comments that repeat the code.
+
+---
