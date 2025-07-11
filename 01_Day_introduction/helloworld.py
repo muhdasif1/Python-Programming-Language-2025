@@ -2,7 +2,6 @@ print("Hello World!")
 print("Weolcome to Python Programming Language")
 
 # Introduction
-# Day 1 - 30DaysOfPython Challenge
 
 print(4 + 2)   # addition(+)
 print(4 - 2)   # subtraction(-)
@@ -12,7 +11,7 @@ print(4 ** 2)  # exponential(**)
 print(4 % 2)   # modulus(%)
 print(4 // 2)  # Floor division operator(//)
 
-# Checking data types
+# Data types
 
 print(type(10))                  # Int
 print(type(3.14))                # Float
