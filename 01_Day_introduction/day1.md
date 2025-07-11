@@ -101,7 +101,7 @@ Data types help Python:
 
 Here are the main categories of data types in Python:
 
----
+
 
 #### 1. **Numeric Types**
 
@@ -111,7 +111,7 @@ Here are the main categories of data types in Python:
 | `float`   | Floating-point number (decimal) | `x = 3.14`   |
 | `complex` | Complex number                  | `x = 2 + 3j` |
 
----
+
 
 #### 2. **Text Type**
 
@@ -119,7 +119,7 @@ Here are the main categories of data types in Python:
 | ----- | -------------------- | ------------- |
 | `str` | String of characters | `x = "Hello"` |
 
----
+
 
 #### 3. **Sequence Types**
 
@@ -129,7 +129,7 @@ Here are the main categories of data types in Python:
 | `tuple` | Ordered, immutable collection | `x = (1, 2, 3)` |
 | `range` | Sequence of numbers           | `x = range(5)`  |
 
----
+
 
 #### 4. **Mapping Type**
 
@@ -137,7 +137,7 @@ Here are the main categories of data types in Python:
 | ------ | ---------------------------- | ---------------------- |
 | `dict` | Key-value pairs (like a map) | `x = {"name": "Asif"}` |
 
----
+
 
 #### 5. **Set Types**
 
@@ -146,7 +146,7 @@ Here are the main categories of data types in Python:
 | `set`       | Unordered, unique elements | `x = {1, 2, 3}`        |
 | `frozenset` | Immutable version of set   | `x = frozenset({1,2})` |
 
----
+
 
 #### 6. **Boolean Type**
 
@@ -154,7 +154,7 @@ Here are the main categories of data types in Python:
 | ------ | ----------------------------- | ---------- |
 | `bool` | Logical values (`True/False`) | `x = True` |
 
----
+
 
 #### 7. **None Type**
 
@@ -162,7 +162,7 @@ Here are the main categories of data types in Python:
 | ---------- | ---------------------------------- | ---------- |
 | `NoneType` | Represents "nothing" or "no value" | `x = None` |
 
----
+
 
 ### Example: Check Type of a Variable
 
@@ -174,7 +174,6 @@ x = "Asif"
 print(type(x))   # <class 'str'>
 ```
 
----
 
 ### Summary Table
 
