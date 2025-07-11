@@ -80,3 +80,113 @@ Python is used across various fields and industries:
 > The name **Python** doesn’t come from the snake! It was inspired by the British comedy show *“Monty Python’s Flying Circus”*.
 
 ---
+
+### What are Data Types in Python?
+
+**Data types in Python** define the **kind of value** a variable can hold. Python is a **dynamically typed** language, which means you don’t need to declare the data type — Python figures it out automatically when you assign a value.
+
+---
+
+### Why Are Data Types Important?
+
+Data types help Python:
+
+* Understand what kind of operations can be performed
+* Allocate memory
+* Avoid errors during execution
+
+---
+
+### Built-in Data Types in Python
+
+Here are the main categories of data types in Python:
+
+---
+
+#### 1. **Numeric Types**
+
+| Type      | Description                     | Example      |
+| --------- | ------------------------------- | ------------ |
+| `int`     | Integer (whole number)          | `x = 10`     |
+| `float`   | Floating-point number (decimal) | `x = 3.14`   |
+| `complex` | Complex number                  | `x = 2 + 3j` |
+
+---
+
+#### 2. **Text Type**
+
+| Type  | Description          | Example       |
+| ----- | -------------------- | ------------- |
+| `str` | String of characters | `x = "Hello"` |
+
+---
+
+#### 3. **Sequence Types**
+
+| Type    | Description                   | Example         |
+| ------- | ----------------------------- | --------------- |
+| `list`  | Ordered, mutable collection   | `x = [1, 2, 3]` |
+| `tuple` | Ordered, immutable collection | `x = (1, 2, 3)` |
+| `range` | Sequence of numbers           | `x = range(5)`  |
+
+---
+
+#### 4. **Mapping Type**
+
+| Type   | Description                  | Example                |
+| ------ | ---------------------------- | ---------------------- |
+| `dict` | Key-value pairs (like a map) | `x = {"name": "Asif"}` |
+
+---
+
+#### 5. **Set Types**
+
+| Type        | Description                | Example                |
+| ----------- | -------------------------- | ---------------------- |
+| `set`       | Unordered, unique elements | `x = {1, 2, 3}`        |
+| `frozenset` | Immutable version of set   | `x = frozenset({1,2})` |
+
+---
+
+#### 6. **Boolean Type**
+
+| Type   | Description                   | Example    |
+| ------ | ----------------------------- | ---------- |
+| `bool` | Logical values (`True/False`) | `x = True` |
+
+---
+
+#### 7. **None Type**
+
+| Type       | Description                        | Example    |
+| ---------- | ---------------------------------- | ---------- |
+| `NoneType` | Represents "nothing" or "no value" | `x = None` |
+
+---
+
+### Example: Check Type of a Variable
+
+```python
+x = 19
+print(type(x))   # <class 'int'>
+
+x = "Asif"
+print(type(x))   # <class 'str'>
+```
+
+---
+
+### Summary Table
+
+| Category | Data Types                |
+| -------- | ------------------------- |
+| Numeric  | `int`, `float`, `complex` |
+| Text     | `str`                     |
+| Sequence | `list`, `tuple`, `range`  |
+| Mapping  | `dict`                    |
+| Set      | `set`, `frozenset`        |
+| Boolean  | `bool`                    |
+| None     | `NoneType`                |
+
+---
+
