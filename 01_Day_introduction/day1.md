@@ -32,7 +32,7 @@ print("Hello, World!")
 
 ---
 
-### 🔹 Where Python is Used in Artificial Intelligence:
+### Where Python is Used in Artificial Intelligence:
 
 | AI Field                              | How Python is Used                       | Popular Libraries/Tools                      |
 | ------------------------------------- | ---------------------------------------- | -------------------------------------------- |
