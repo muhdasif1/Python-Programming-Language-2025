@@ -159,13 +159,13 @@ x, y, z = 5, 10   # Error: not enough values
 
 ---
 
-### 🔹 What Are **Data Types** in Python?
+### What Are **Data Types** in Python?
 
 **Data types** define the **type of data** a variable holds — like a number, text, list, etc. Python automatically detects the data type when you assign a value.
 
 ---
 
-### ✅ **Built-in Data Types in Python**
+### **Built-in Data Types in Python**
 
 Let’s break them down with simple examples:
 
@@ -189,7 +189,7 @@ Let’s break them down with simple examples:
 
 ---
 
-### 📌 **Examples**
+### **Examples**
 
 ```python
 # Text
@@ -220,7 +220,7 @@ x = None                      # NoneType
 
 ---
 
-### 🔍 Check the Type of a Variable
+### Check the Type of a Variable
 
 ```python
 x = 10
@@ -229,7 +229,7 @@ print(type(x))   # Output: <class 'int'>
 
 ---
 
-### 🧠 Python is **Dynamically Typed**
+### Python is **Dynamically Typed**
 
 You don’t need to declare a type — Python figures it out:
 
@@ -237,5 +237,101 @@ You don’t need to declare a type — Python figures it out:
 x = 5        # x is int
 x = "Hello"  # now x is str
 ```
+
+---
+
+### **Numbers in Python**
+
+In Python, **Numbers** are a basic data type used to store numeric values. There are 3 main types of numbers:
+
+---
+
+### **1. Integer (`int`)**
+
+* Whole numbers (positive or negative)
+* No decimal point
+
+```python
+x = 10
+y = -5
+print(type(x))  # <class 'int'>
+```
+
+---
+
+### **2. Float (`float`)**
+
+* Numbers **with decimal points**
+* Used for **real numbers**
+
+```python
+pi = 3.14
+temp = -27.5
+print(type(pi))  # <class 'float'>
+```
+
+---
+
+### **3. Complex (`complex`)**
+
+* Used in **advanced math**
+* Has a real and imaginary part
+* Written as: `real + imagj`
+
+```python
+z = 2 + 3j
+print(type(z))  # <class 'complex'>
+```
+
+---
+
+### **Basic Math Operations**
+
+```python
+a = 10
+b = 3
+
+print(a + b)   # Addition → 13
+print(a - b)   # Subtraction → 7
+print(a * b)   # Multiplication → 30
+print(a / b)   # Division → 3.333...
+print(a // b)  # Floor Division → 3
+print(a % b)   # Modulus (remainder) → 1
+print(a ** b)  # Exponent (power) → 1000
+```
+
+---
+
+### **Type Conversion**
+
+Convert between number types:
+
+```python
+x = 10        # int
+y = float(x)  # float
+z = int(3.9)  # int (truncates to 3)
+
+print(y)  # 10.0
+print(z)  # 3
+```
+
+---
+
+### Extra: `isinstance()` to Check Type
+
+```python
+print(isinstance(10, int))      # True
+print(isinstance(3.14, float))  # True
+```
+
+---
+
+### Summary
+
+| Type      | Description              | Example        |
+| --------- | ------------------------ | -------------- |
+| `int`     | Whole numbers            | `5`, `-10`     |
+| `float`   | Decimal numbers          | `3.14`, `-9.8` |
+| `complex` | Real + Imaginary numbers | `2 + 3j`       |
 
 ---
