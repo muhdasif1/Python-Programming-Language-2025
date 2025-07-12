@@ -158,3 +158,84 @@ x, y, z = 5, 10   # Error: not enough values
 ```
 
 ---
+
+### 🔹 What Are **Data Types** in Python?
+
+**Data types** define the **type of data** a variable holds — like a number, text, list, etc. Python automatically detects the data type when you assign a value.
+
+---
+
+### ✅ **Built-in Data Types in Python**
+
+Let’s break them down with simple examples:
+
+| Category  | Data Type    | Example                      |
+| --------- | ------------ | ---------------------------- |
+| Text      | `str`        | `"Hello"`                    |
+| Numeric   | `int`        | `5`                          |
+|           | `float`      | `3.14`                       |
+|           | `complex`    | `2 + 3j`                     |
+| Sequence  | `list`       | `[1, 2, 3]`                  |
+|           | `tuple`      | `(1, 2, 3)`                  |
+|           | `range`      | `range(5)`                   |
+| Mapping   | `dict`       | `{"name": "Ali", "age": 20}` |
+| Set       | `set`        | `{1, 2, 3}`                  |
+|           | `frozenset`  | `frozenset({1, 2, 3})`       |
+| Boolean   | `bool`       | `True`, `False`              |
+| Binary    | `bytes`      | `b"abc"`                     |
+|           | `bytearray`  | `bytearray(5)`               |
+|           | `memoryview` | `memoryview(bytes(5))`       |
+| None Type | `NoneType`   | `None`                       |
+
+---
+
+### 📌 **Examples**
+
+```python
+# Text
+name = "Asif"           # str
+
+# Numbers
+age = 21                # int
+pi = 3.14               # float
+z = 3 + 4j              # complex
+
+# Sequence
+fruits = ["apple", "banana"]  # list
+points = (1, 2, 3)             # tuple
+count = range(5)              # range
+
+# Mapping
+student = {"name": "Ali", "age": 18}  # dict
+
+# Set
+colors = {"red", "blue"}      # set
+
+# Boolean
+is_valid = True               # bool
+
+# None
+x = None                      # NoneType
+```
+
+---
+
+### 🔍 Check the Type of a Variable
+
+```python
+x = 10
+print(type(x))   # Output: <class 'int'>
+```
+
+---
+
+### 🧠 Python is **Dynamically Typed**
+
+You don’t need to declare a type — Python figures it out:
+
+```python
+x = 5        # x is int
+x = "Hello"  # now x is str
+```
+
+---
