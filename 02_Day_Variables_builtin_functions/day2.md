@@ -65,7 +65,7 @@ score2 = 100
 
 ```python
 2score = 100      # starts with a number
-user-name = "Ali" # hyphens are not allowed
+user-name = "Muhammad Asif" # hyphens are not allowed
 ```
 
 ---
@@ -75,7 +75,7 @@ user-name = "Ali" # hyphens are not allowed
 | Variable            | Value          | Type    |
 | ------------------- | -------------- | ------- |
 | `x = 10`            | Integer        | `int`   |
-| `name = "Ali"`      | Text           | `str`   |
+| `name = "Asif"`      | Text           | `str`   |
 | `pi = 3.14`         | Decimal number | `float` |
 | `flag = True`       | Boolean        | `bool`  |
 | `marks = [1, 2, 3]` | List           | `list`  |
