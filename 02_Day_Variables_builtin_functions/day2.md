@@ -39,7 +39,7 @@ A **variable** is like a **container** in memory that stores data (like numbers,
 
 ```python
 x = 5             # x is a variable storing an integer
-name = "Ali"      # name is a variable storing a string
+name = "Muhammad Asif"      # name is a variable storing a string
 pi = 3.14         # pi stores a float (decimal)
 is_valid = True   # stores a boolean value (True/False)
 ```
@@ -56,7 +56,7 @@ is_valid = True   # stores a boolean value (True/False)
 ✅ Valid:
 
 ```python
-user_name = "Asif"
+user_name = "Muhammad Asif"
 _age = 20
 score2 = 100
 ```
