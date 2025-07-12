@@ -102,3 +102,59 @@ x = 10
 Python stores the value `10` in memory and gives it the label `x`. Later, you can use `x` to refer to that value.
 
 ---
+
+### Declaring Multiple Variables in One Line — Python
+
+Yes! In Python, you can declare **multiple variables in a single line**. There are two main ways to do this:
+
+---
+
+### 1. **Assigning Different Values to Different Variables**
+
+```python
+x, y, z = 10, 20, 30
+print(x)  # 10
+print(y)  # 20
+print(z)  # 30
+```
+
+ *Each variable gets its own value in order.*
+
+---
+
+### 2. **Assigning the Same Value to Multiple Variables**
+
+```python
+a = b = c = 100
+print(a)  # 100
+print(b)  # 100
+print(c)  # 100
+```
+
+*All three variables point to the same value `100`.*
+
+---
+
+### 3. **Unpacking a List or Tuple into Variables**
+
+```python
+data = [1, 2, 3]
+x, y, z = data
+print(x, y, z)  # 1 2 3
+```
+
+> Useful when you have a sequence and want to extract values into separate variables.
+
+---
+
+### Must Match the Number of Values and Variables
+
+```python
+x, y = 5, 10, 15  # Error: too many values
+```
+
+```python
+x, y, z = 5, 10   # Error: not enough values
+```
+
+---
