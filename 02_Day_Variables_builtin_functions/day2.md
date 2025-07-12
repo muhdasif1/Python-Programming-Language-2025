@@ -33,7 +33,7 @@ Python provides many **built-in functions** that you can use without importing a
 
 A **variable** is like a **container** in memory that stores data (like numbers, text, lists, etc.) so you can use it later in your program.
 
----
+
 
 ###  **How to create a variable in Python**
 
@@ -44,7 +44,7 @@ pi = 3.14         # pi stores a float (decimal)
 is_valid = True   # stores a boolean value (True/False)
 ```
 
----
+
 
 ### **Variable Rules in Python**
 
@@ -68,7 +68,7 @@ score2 = 100
 user-name = "Muhammad Asif" # hyphens are not allowed
 ```
 
----
+
 
 ###  **Types of Variables (by value)**
 
@@ -80,7 +80,7 @@ user-name = "Muhammad Asif" # hyphens are not allowed
 | `flag = True`       | Boolean        | `bool`  |
 | `marks = [1, 2, 3]` | List           | `list`  |
 
----
+
 
 ### Check Variable Type
 
@@ -89,7 +89,7 @@ x = 5
 print(type(x))   # <class 'int'>
 ```
 
----
+
 
 ### Memory Concept
 
@@ -101,13 +101,13 @@ x = 10
 
 Python stores the value `10` in memory and gives it the label `x`. Later, you can use `x` to refer to that value.
 
----
+
 
 ### Declaring Multiple Variables in One Line — Python
 
 Yes! In Python, you can declare **multiple variables in a single line**. There are two main ways to do this:
 
----
+
 
 ### 1. **Assigning Different Values to Different Variables**
 
@@ -120,7 +120,7 @@ print(z)  # 30
 
  *Each variable gets its own value in order.*
 
----
+
 
 ### 2. **Assigning the Same Value to Multiple Variables**
 
@@ -133,7 +133,7 @@ print(c)  # 100
 
 *All three variables point to the same value `100`.*
 
----
+
 
 ### 3. **Unpacking a List or Tuple into Variables**
 
@@ -145,7 +145,7 @@ print(x, y, z)  # 1 2 3
 
 > Useful when you have a sequence and want to extract values into separate variables.
 
----
+
 
 ### Must Match the Number of Values and Variables
 
@@ -163,7 +163,7 @@ x, y, z = 5, 10   # Error: not enough values
 
 **Data types** define the **type of data** a variable holds — like a number, text, list, etc. Python automatically detects the data type when you assign a value.
 
----
+
 
 ### **Built-in Data Types in Python**
 
@@ -187,7 +187,7 @@ Let’s break them down with simple examples:
 |           | `memoryview` | `memoryview(bytes(5))`       |
 | None Type | `NoneType`   | `None`                       |
 
----
+
 
 ### **Examples**
 
@@ -218,7 +218,7 @@ is_valid = True               # bool
 x = None                      # NoneType
 ```
 
----
+
 
 ### Check the Type of a Variable
 
@@ -227,7 +227,7 @@ x = 10
 print(type(x))   # Output: <class 'int'>
 ```
 
----
+
 
 ### Python is **Dynamically Typed**
 
@@ -244,7 +244,7 @@ x = "Hello"  # now x is str
 
 In Python, **Numbers** are a basic data type used to store numeric values. There are 3 main types of numbers:
 
----
+
 
 ### **1. Integer (`int`)**
 
@@ -257,7 +257,7 @@ y = -5
 print(type(x))  # <class 'int'>
 ```
 
----
+
 
 ### **2. Float (`float`)**
 
@@ -270,7 +270,7 @@ temp = -27.5
 print(type(pi))  # <class 'float'>
 ```
 
----
+
 
 ### **3. Complex (`complex`)**
 
@@ -283,7 +283,7 @@ z = 2 + 3j
 print(type(z))  # <class 'complex'>
 ```
 
----
+
 
 ### **Basic Math Operations**
 
@@ -300,7 +300,7 @@ print(a % b)   # Modulus (remainder) → 1
 print(a ** b)  # Exponent (power) → 1000
 ```
 
----
+
 
 ### **Type Conversion**
 
@@ -315,7 +315,7 @@ print(y)  # 10.0
 print(z)  # 3
 ```
 
----
+
 
 ### Extra: `isinstance()` to Check Type
 
@@ -324,7 +324,7 @@ print(isinstance(10, int))      # True
 print(isinstance(3.14, float))  # True
 ```
 
----
+
 
 ### Summary
 
