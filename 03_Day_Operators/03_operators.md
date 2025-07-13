@@ -1,214 +1,136 @@
-## Operator
-In programming (and in Python specifically), an **operator** is a special symbol or keyword that tells the interpreter to perform a specific computation or manipulation on one or more values (called **operands**). You can think of operators as the verbs of your code—they take inputs, do something with them, and produce an output.
+### ✅ What Are Operators in Python?
 
-Here’s the core idea:
-
-* **Operands** are the data you work with (literals like `5`, variables like `x`, expressions like `a + b`).
-* **Operators** act on those operands to produce a result.
-
----
-Here’s a truly exhaustive overview of every operator available in Python, grouped by category and ordered by precedence (highest to lowest). Use this as your go‑to reference!
+**Operators** in Python are **symbols or special characters** used to perform **operations** on variables and values. For example, `+` is an operator used to add two values.
 
 ---
 
-## Operator Precedence (Highest → Lowest)
+## Categories of Operators in Python
 
-| Precedence Level | Operators                                                                     | Description                                        |                      |
-| ---------------- | ----------------------------------------------------------------------------- | -------------------------------------------------- | -------------------- |
-| 1                | `()`                                                                          | Parentheses (grouping)                             |                      |
-| 2                | `x[index]`  `x[index:index]`  `x(...)`  `x.attribute`                         | Subscription, slicing, call, attribute reference   |                      |
-| 3                | `**`                                                                          | Exponentiation                                     |                      |
-| 4                | `+x`  `-x`  `~x`                                                              | Unary plus, unary minus, bitwise NOT               |                      |
-| 5                | `*`  `/`  `//`  `%`                                                           | Multiplication, true division, floor division, mod |                      |
-| 6                | `+`  `-`                                                                      | Addition, subtraction                              |                      |
-| 7                | `<<`  `>>`                                                                    | Bitwise shifts                                     |                      |
-| 8                | `&`                                                                           | Bitwise AND                                        |                      |
-| 9                | `^`                                                                           | Bitwise XOR                                        |                      |
-| 10               | \|                                                                            | Bitwise OR                                         |                      |
-| 11               | `in`  `not in`                                                                | Membership tests                                   |                      |
-| 12               | `is`  `is not`                                                                | Identity tests                                     |                      |
-| 13               | `<`  `<=`  `>`  `>=`  `!=`  `==`                                              | Comparisons                                        |                      |
-| 14               | `not`                                                                         | Boolean NOT                                        |                      |
-| 15               | `and`                                                                         | Boolean AND                                        |                      |
-| 16               | `or`                                                                          | Boolean OR                                         |                      |
-| 17               | `if–else` (ternary)                                                           | Conditional expression                             |                      |
-| 18               | `:=`                                                                          | Assignment expression (Python 3.8+)                |                      |
-| 19               | `=`  `+=`  `-=`  `*=`  `/=`  `//=`  `%=`  `**=`  `<<=`  `>>=`  `&=`  `^=`  \` | =\`                                                | Assignment operators |
-| 20               | `,`                                                                           | Comma (tuple packing/unpacking)                    |                      |
-| 21               | `lambda`                                                                      | Lambda expression                                  |                      |
+Python provides several types of operators:
+
+| Operator Type        | Description                         |
+| -------------------- | ----------------------------------- |
+| Arithmetic Operators | Perform mathematical operations     |
+| Assignment Operators | Assign values to variables          |
+| Comparison Operators | Compare two values                  |
+| Logical Operators    | Combine conditional statements      |
+| Identity Operators   | Compare memory locations            |
+| Membership Operators | Test for membership in a sequence   |
+| Bitwise Operators    | Perform operations on binary values |
 
 ---
 
 ## 1. Arithmetic Operators
 
-| Operator | Description                  | Example        |
-| -------- | ---------------------------- | -------------- |
-| `+`      | Addition                     | `2 + 3  → 5`   |
-| `-`      | Subtraction                  | `5 - 2  → 3`   |
-| `*`      | Multiplication               | `4 * 3  → 12`  |
-| `/`      | True division (float result) | `7 / 2  → 3.5` |
-| `//`     | Floor division               | `7 // 2 → 3`   |
-| `%`      | Modulus (remainder)          | `7 % 3  → 1`   |
-| `**`     | Exponentiation               | `2 ** 3 → 8`   |
-| `+x`     | Unary plus                   | `+5    → 5`    |
-| `-x`     | Unary minus                  | `-5    → -5`   |
+| Operator | Name           | Example   | Result |
+| -------- | -------------- | --------- | ------ |
+| `+`      | Addition       | `3 + 2`   | `5`    |
+| `-`      | Subtraction    | `5 - 3`   | `2`    |
+| `*`      | Multiplication | `4 * 2`   | `8`    |
+| `/`      | Division       | `10 / 2`  | `5.0`  |
+| `//`     | Floor Division | `10 // 3` | `3`    |
+| `%`      | Modulus        | `10 % 3`  | `1`    |
+| `**`     | Exponentiation | `2 ** 3`  | `8`    |
 
 ---
 
-## 2. Comparison (Relational) Operators
+## 2. Assignment Operators
 
-| Operator | Description              | Example           |
-| -------- | ------------------------ | ----------------- |
-| `==`     | Equal to                 | `5 == 5   → True` |
-| `!=`     | Not equal to             | `5 != 3   → True` |
-| `<`      | Less than                | `3 < 5    → True` |
-| `<=`     | Less than or equal to    | `3 <= 3   → True` |
-| `>`      | Greater than             | `5 > 3    → True` |
-| `>=`     | Greater than or equal to | `5 >= 5   → True` |
-
----
-
-## 3. Assignment Operators
-
-| Operator | Equivalent to | Example   |               |
-| -------- | ------------- | --------- | ------------- |
-| `=`      | —             | `x = 10`  |               |
-| `+=`     | `x = x + y`   | `x += 5`  |               |
-| `-=`     | `x = x - y`   | `x -= 2`  |               |
-| `*=`     | `x = x * y`   | `x *= 3`  |               |
-| `/=`     | `x = x / y`   | `x /= 4`  |               |
-| `//=`    | `x = x // y`  | `x //= 2` |               |
-| `%=`     | `x = x % y`   | `x %= 3`  |               |
-| `**=`    | `x = x ** y`  | `x **= 2` |               |
-| `<<=`    | `x = x << y`  | `x <<= 1` |               |
-| `>>=`    | `x = x >> y`  | `x >>= 1` |               |
-| `&=`     | `x = x & y`   | `x &= y`  |               |
-| `^=`     | `x = x ^ y`   | `x ^= y`  |               |
-| \|=\`    | \`x = x       | y\`       | `x &#124;= y` |
+| Operator | Meaning                 | Example   | Equivalent to |
+| -------- | ----------------------- | --------- | ------------- |
+| `=`      | Assign value            | `x = 5`   | —             |
+| `+=`     | Add and assign          | `x += 3`  | `x = x + 3`   |
+| `-=`     | Subtract and assign     | `x -= 2`  | `x = x - 2`   |
+| `*=`     | Multiply and assign     | `x *= 4`  | `x = x * 4`   |
+| `/=`     | Divide and assign       | `x /= 2`  | `x = x / 2`   |
+| `//=`    | Floor divide and assign | `x //= 2` | `x = x // 2`  |
+| `%=`     | Modulus and assign      | `x %= 2`  | `x = x % 2`   |
+| `**=`    | Exponent and assign     | `x **= 2` | `x = x ** 2`  |
 
 ---
 
-## 4. Boolean (Logical) Operators
+## 3. Comparison Operators
 
-| Operator | Description | Example                   |
-| -------- | ----------- | ------------------------- |
-| `and`    | Logical AND | `True and False  → False` |
-| `or`     | Logical OR  | `True or False   → True`  |
-| `not`    | Logical NOT | `not True       → False`  |
+Used to compare values. Always return `True` or `False`.
+
+| Operator | Description              | Example  | Result |
+| -------- | ------------------------ | -------- | ------ |
+| `==`     | Equal to                 | `5 == 5` | `True` |
+| `!=`     | Not equal to             | `5 != 3` | `True` |
+| `>`      | Greater than             | `5 > 2`  | `True` |
+| `<`      | Less than                | `2 < 5`  | `True` |
+| `>=`     | Greater than or equal to | `5 >= 5` | `True` |
+| `<=`     | Less than or equal to    | `4 <= 6` | `True` |
 
 ---
 
-## 5. Bitwise Operators
+## 4. Logical Operators
 
-Operate on the binary representation of integers:
+Used to combine multiple conditions.
 
-| Operator | Description | Example                         |
-| -------- | ----------- | ------------------------------- |
-| `&`      | Bitwise AND | `0b1010 & 0b1100 → 0b1000`      |
-| \|       | Bitwise OR  | `0b1010 &#124; 0b1100 → 0b1110` |
-| `^`      | Bitwise XOR | `0b1010 ^ 0b1100 → 0b0110`      |
-| `~`      | Bitwise NOT | `~0b1010 → -0b1011`             |
-| `<<`     | Left shift  | `0b0011 << 2 → 0b1100`          |
-| `>>`     | Right shift | `0b1100 >> 2 → 0b0011`          |
+| Operator | Description                  | Example         | Result  |
+| -------- | ---------------------------- | --------------- | ------- |
+| `and`    | True if both are true        | `True and True` | `True`  |
+| `or`     | True if at least one is true | `True or False` | `True`  |
+| `not`    | Reverses the result          | `not True`      | `False` |
+
+---
+
+## 5. Identity Operators
+
+Used to compare memory locations.
+
+| Operator | Description                       | Example      | Result       |
+| -------- | --------------------------------- | ------------ | ------------ |
+| `is`     | True if both refer to same object | `x is y`     | `True/False` |
+| `is not` | True if not same object           | `x is not y` | `True/False` |
+
+```python
+x = [1, 2]
+y = x
+z = [1, 2]
+print(x is y)      # True
+print(x is z)      # False (different objects even with same data)
+```
 
 ---
 
 ## 6. Membership Operators
 
-Test sequence membership:
+Test whether a value is in a sequence.
 
-| Operator | Description                                      | Example                 |
-| -------- | ------------------------------------------------ | ----------------------- |
-| `in`     | True if left operand is in right operand         | `'a' in 'cat' → True`   |
-| `not in` | True if left operand is **not** in right operand | `3 not in [1,2] → True` |
-
----
-
-## 7. Identity Operators
-
-Compare object identities:
-
-| Operator | Description                                 | Example      |
-| -------- | ------------------------------------------- | ------------ |
-| `is`     | True if both refer to the **same** object   | `a is b`     |
-| `is not` | True if both refer to **different** objects | `a is not b` |
+| Operator | Description                      | Example            | Result |
+| -------- | -------------------------------- | ------------------ | ------ |
+| `in`     | True if value exists in sequence | `2 in [1,2,3]`     | `True` |
+| `not in` | True if value not in sequence    | `5 not in [1,2,3]` | `True` |
 
 ---
 
-## 8. Conditional Expression (Ternary)
+## 7. Bitwise Operators (Advanced)
 
-```python
-x = 10
-result = "even" if x % 2 == 0 else "odd"
-# → "even"
-```
+Work on bits (binary).
 
----
-
-## 9. Walrus Operator (Assignment Expression) – Python 3.8+
-
-Assign and return in one expression:
-
-```python
-if (n := len(my_list)) > 5:
-    print(f"Too many elements: {n}")
-```
+| Operator | Name        | Example  | Binary Result          |     |          |            |
+| -------- | ----------- | -------- | ---------------------- | --- | -------- | ---------- |
+| `&`      | AND         | `5 & 3`  | `1` (101 & 011 = 001)  |     |          |            |
+| \`       | \`          | OR       | \`5                    | 3\` | `7` (101 | 011 = 111) |
+| `^`      | XOR         | `5 ^ 3`  | `6` (101 ^ 011 = 110)  |     |          |            |
+| `~`      | NOT         | `~5`     | `-6` (invert all bits) |     |          |            |
+| `<<`     | Left Shift  | `5 << 1` | `10` (shift left by 1) |     |          |            |
+| `>>`     | Right Shift | `5 >> 1` | `2` (shift right by 1) |     |          |            |
 
 ---
 
-## 10. Lambda Operator
+## Summary Table
 
-An anonymous function:
-
-```python
-square = lambda x: x*x
-print(square(5))  # → 25
-```
-
----
-
-## 11. Comma (`,`) and Colon (`:`)
-
-* **Comma** is used for tuple packing/unpacking, function arguments:
-
-  ```python
-  t = 1, 2, 3        # tuple packing
-  a, b, c = t        # unpacking
-  ```
-* **Colon** appears in slices, dicts, and block headers:
-
-  ```python
-  lst[1:4]          # slicing
-  d = {'a': 1}      # dict literal
-  if x > 0: print(x)
-  ```
+| Type       | Examples                            |                           |
+| ---------- | ----------------------------------- | ------------------------- |
+| Arithmetic | `+`, `-`, `*`, `/`, `//`, `%`, `**` |                           |
+| Assignment | `=`, `+=`, `-=`, `*=`, etc.         |                           |
+| Comparison | `==`, `!=`, `>`, `<`, `>=`, `<=`    |                           |
+| Logical    | `and`, `or`, `not`                  |                           |
+| Identity   | `is`, `is not`                      |                           |
+| Membership | `in`, `not in`                      |                           |
+| Bitwise    | `&`, \`                             | `, `^`, `\~`, `<<`, `>>\` |
 
 ---
-
-### Putting It All Together
-
-```python
-# Precedence demo:
-result = (5 + 3) * 2 ** 2 // 3 % 4   # eval order: (), **, *, //, %, +
-print(result)  # → 2
-
-# Mixed operators:
-a = [1, 2, 3]
-b = a                                  # identity
-print(a is b)                         # True
-
-x = 0b1010
-y = 0b1100
-print(x & y, x | y, x ^ y)            # bitwise ops
-
-print("p" in "python")                # membership
-
-# Ternary + walrus
-print("Long" if (n := len(a)) > 5 else "Short", n)
-```
-
----
-
-❓ **Need examples of operator precedence in complex expressions?**
-❓ **Want to see how custom classes implement rich comparison or in‑place operators?**
-Let me know!
