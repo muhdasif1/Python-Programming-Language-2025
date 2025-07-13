@@ -1,8 +1,6 @@
 print("Hello World!")
 print("Weolcome to Python Programming Language")
 
-# Introduction
-
 print(4 + 2)   # addition(+)
 print(4 - 2)   # subtraction(-)
 print(4 * 2)   # multiplication(*)
@@ -12,7 +10,6 @@ print(4 % 2)   # modulus(%)
 print(4 // 2)  # Floor division operator(//)
 
 # Data types
-
 print(type(10))                  # Int
 print(type(3.14))                # Float
 print(type(1 + 3j))              # Complex
