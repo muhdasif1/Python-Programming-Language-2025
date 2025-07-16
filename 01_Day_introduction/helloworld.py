@@ -1,5 +1,5 @@
 print("Hello World!")
-print("Weolcome to Python Programming Language")
+print("Welcome to Python Programming Language")
 
 print(4 + 2)   # addition(+)
 print(4 - 2)   # subtraction(-)
