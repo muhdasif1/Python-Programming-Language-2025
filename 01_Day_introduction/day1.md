@@ -1,4 +1,14 @@
 ## 🐍 Introduction to Python Programming
+---
+
+### **What is Programming?**
+**Programming** is the process of writing instructions that a computer can understand and execute. These instructions are written in a **programming language** and are used to:
+- Solve problems
+- Automate tasks
+- Build applications (like websites, games, mobile apps, and more)
+
+In simple terms, programming is how you **talk to computers** and tell them what to do.
+---
 
 ### 📌 What is Python?
 
