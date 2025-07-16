@@ -3,6 +3,8 @@
 A beginner-friendly yet comprehensive crash course on Python programming in 2025!  
 This repository covers fundamental to advanced concepts with **practical examples**, **exercises**, and **real-world projects** to help you build strong programming skills.
 
+![Python](https://github.com/user-attachments/assets/ae036bd5-aeb2-4f6a-a131-c7934c7f2003)
+
 ---
 
 ## Python Installation
