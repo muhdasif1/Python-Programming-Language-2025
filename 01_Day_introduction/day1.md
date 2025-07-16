@@ -8,6 +8,7 @@
 - Build applications (like websites, games, mobile apps, and more)
 
 In simple terms, programming is how you **talk to computers** and tell them what to do.
+
 ---
 
 ### 📌 What is Python?
