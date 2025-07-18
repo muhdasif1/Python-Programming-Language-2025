@@ -1,5 +1,3 @@
-# Python Sets - Complete Example
-
 # Creating a Set
 my_set = {1, 2, 3, 4}
 print("Initial Set:", my_set)
