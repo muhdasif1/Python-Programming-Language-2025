@@ -5,7 +5,7 @@ country = 'Pakistan'
 city = 'Peeshawar'
 age = 19
 is_married = False
-skills = ['Python','c++' , 'Agentic Ai']
+skills = ['Python','c++' , 'Agents','openai-sdk','langGraph']
 
 # Dictionary to hold more info
 person_info = {
