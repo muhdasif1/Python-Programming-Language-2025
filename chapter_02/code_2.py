@@ -16,5 +16,3 @@ print(last_name.title())
 print(f"name in uppercase: {full_name.upper()}")
 print(f"name in lowercase: {full_name.lower()}")
 print(f"name in titlecase: {full_name.title()}")
-
-dir(str)
