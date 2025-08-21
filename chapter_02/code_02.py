@@ -107,7 +107,6 @@ print("Complex real:", (3+4j).real)      # 3.0
 print("Integer to_bytes():", num_int.to_bytes(2, byteorder='big'))  # 25 -> b'\x00\x19'
 
 print("--------------------------------")
-
 # ==============================
 # LIST METHODS DEMONSTRATION
 # ==============================
@@ -133,7 +132,7 @@ print("sort():", fruits)                      # Sort list alphabetically
 fruits.clear()  
 print("clear():", fruits)                     # Remove all elements
 
-
+print("--------------------------------")
 # ==============================
 # TUPLE METHODS DEMONSTRATION
 # ==============================
@@ -144,7 +143,7 @@ print("\nOriginal Tuple:", numbers)
 print("count(1):", numbers.count(1))  # Count occurrences of 1
 print("index(3):", numbers.index(3))  # Find index of 3
 
-
+print("--------------------------------")
 # ==============================
 # SET METHODS DEMONSTRATION
 # ==============================
@@ -166,7 +165,7 @@ print("intersection:", set1.intersection(set2))  # Common elements
 print("difference:", set1.difference(set2))      # Elements in set1 not in set2
 print("symmetric_difference:", set1.symmetric_difference(set2)) # Unique to both
 
-
+print("--------------------------------")
 # ==============================
 # DICTIONARY METHODS DEMONSTRATION
 # ==============================
