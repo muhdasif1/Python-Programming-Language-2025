@@ -6,7 +6,7 @@ Python is a versatile programming language
 Python is a easy to learn programming language
 """)
 
-# this is a comment
+# this is a single line comment
 '''
 this is a multi line comment
 '''  
