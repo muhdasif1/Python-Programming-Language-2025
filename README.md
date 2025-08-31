@@ -52,7 +52,7 @@ Use the link below to access and download the Python book free of charge via Goo
 
 > 📈 This chart shows the **Top Programming Languages on GitHub** (2014–2024), ranked by the number of distinct users contributing to repositories using each language.
 
-### Key Insights from the Chart:
+### Key Insights from the Chart
 - **Python** has risen to become the **#1 most popular language on GitHub** as of 2024.
 - **JavaScript** remains strong, now ranked #2.
 - **TypeScript** is rapidly growing and holds the #3 spot.
