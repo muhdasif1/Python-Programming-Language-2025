@@ -62,3 +62,56 @@ Use the link below to access and download the Python book free of charge via Goo
 This trend highlights the **importance of Python** in the current tech landscape and justifies why it's a great language to learn — especially for beginners looking to future-proof their careers.
 
 ---
+# What is a Computer?
+
+A **computer** is an **electronic machine** that processes data and performs tasks according to instructions (**programs**).
+
+
+## In Simple Terms
+
+- **Input** → Data you give it  
+- **Processing** → CPU & memory work on the data  
+- **Output** → Results you see, hear, or use  
+- **Storage** → Keeps data for future use  
+
+## Examples of Computers
+
+- 💻 **Laptop** → Used for study or work  
+- 📱 **Smartphone** → A small but powerful computer  
+- 🖥️ **Supercomputer** → Used in science, weather forecasting, AI, etc.  
+
+<img width="1536" height="1024" alt="computer" src="https://github.com/user-attachments/assets/417b2ebb-b7cc-4df7-82e0-2054c42732d5" />
+
+---
+
+# What is Programming?
+
+**Programming** is the process of creating a set of instructions that a computer can follow to perform specific tasks.  
+These instructions are written in a **programming language** such as Python, Java, or C++.  
+
+Programming allows humans to communicate with computers and build applications, websites, games, and even artificial intelligence systems.  
+
+## Key Points
+
+- Programming = **Giving instructions to a computer**  
+- Done using **programming languages**  
+- Helps automate tasks, solve problems, and create software  
+- Used in every field: **web, mobile, AI, data science, robotics, business software, and more**  
+
+
+## How Programming Works
+
+1. **Write Code** → The programmer writes instructions in a chosen language (e.g., Python).  
+2. **Compile/Interpret** → The code is translated into machine language that the computer understands.  
+3. **Execute** → The computer carries out the instructions step by step.  
+4. **Output** → The result is shown to the user (text, sound, images, etc.).  
+
+
+## Example in Python
+
+```python
+# Simple Python program to add two numbers
+a = 5
+b = 3
+sum = a + b
+print("The sum is:", sum)
