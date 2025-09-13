@@ -104,7 +104,9 @@ Programming allows humans to communicate with computers and build applications, 
 1. **Write Code** → The programmer writes instructions in a chosen language (e.g., Python).  
 2. **Compile/Interpret** → The code is translated into machine language that the computer understands.  
 3. **Execute** → The computer carries out the instructions step by step.  
-4. **Output** → The result is shown to the user (text, sound, images, etc.).  
+4. **Output** → The result is shown to the user (text, sound, images, etc.).
+
+<img width="1536" height="1024" alt="c" src="https://github.com/user-attachments/assets/9921b0f7-dcb9-410f-8b78-a6dfbaa1b97c" />
 
 
 ## Example in Python
