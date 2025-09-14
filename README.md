@@ -108,4 +108,76 @@ Programming allows humans to communicate with computers and build applications, 
 
 <img width="1536" height="1024" alt="c" src="https://github.com/user-attachments/assets/9921b0f7-dcb9-410f-8b78-a6dfbaa1b97c" />
 
+# High-level vs Low-level Programming Languages
 
+## Overview
+
+Programming languages sit on a spectrum from *human-friendly* (high-level) to *machine-friendly* (low-level). The choice affects readability, portability, performance, and control over hardware.
+
+## High-level Programming Languages
+
+**Definition:** Languages that are close to natural human language and abstract away most hardware details.
+
+**Characteristics:**
+
+* Readable and concise syntax
+* Automatic memory management (often)
+* Portable across platforms
+* Rich standard libraries and frameworks
+* Slower (usually) than low-level due to abstraction
+
+**Common examples:** Python, Java, JavaScript, Ruby, C#.
+
+**Simple example (Python):**
+
+```python
+# hello.py
+print("Hello, world!")
+```
+
+**Typical use cases:** web development, data science, automation, desktop/mobile apps, rapid prototyping.
+
+## Low-level Programming Languages
+
+**Definition:** Languages that provide little abstraction from a computer’s instruction set; they map closely to machine operations.
+
+**Characteristics:**
+
+* Direct hardware access and fine-grained control
+* Manual memory management (often)
+* Fast and efficient
+* Harder to read and write
+
+**Types & examples:**
+
+* **Machine code:** binary instructions (0s and 1s) executed by the CPU
+* **Assembly language:** human-readable mnemonics for machine instructions (e.g., `MOV`, `ADD`)
+
+**Simple example (x86-like assembly pseudo):**
+
+```asm
+; move value 5 into register eax
+MOV EAX, 5
+; call OS to print or perform syscall (platform dependent)
+```
+
+**Typical use cases:** operating systems, embedded systems, device drivers, performance-critical components.
+
+
+## Quick Comparison
+
+| Aspect                |      High-level | Low-level |
+| --------------------- | --------------: | --------: |
+| Readability           |            High |       Low |
+| Performance           | Lower (usually) |    Higher |
+| Portability           |            High |       Low |
+| Control over hardware |             Low |      High |
+| Learning curve        |          Easier |   Steeper |
+
+
+## When to choose which
+
+* Use **high-level** when you need speed of development, portability, and a large ecosystem (e.g., web apps, data analysis).
+* Use **low-level** when you need maximum performance, minimal overhead, or direct hardware access (e.g., firmware, kernels).
+
+---
