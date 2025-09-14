@@ -109,11 +109,3 @@ Programming allows humans to communicate with computers and build applications, 
 <img width="1536" height="1024" alt="c" src="https://github.com/user-attachments/assets/9921b0f7-dcb9-410f-8b78-a6dfbaa1b97c" />
 
 
-## Example in Python
-
-```python
-# Simple Python program to add two numbers
-a = 5
-b = 3
-sum = a + b
-print("The sum is:", sum)
