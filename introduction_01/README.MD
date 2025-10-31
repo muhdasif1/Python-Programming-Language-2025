@@ -57,3 +57,50 @@ Adds 5 + 3
 Prints **8**
 
 ---
+ **comments** 
+ are used to explain your code and make it easier to understand. They are ignored by the Python interpreter — meaning they don’t affect how the program runs.
+
+There are **two main types of comments**:
+
+---
+
+### 1. **Single-line comment**
+
+Use the `#` symbol before your comment.
+
+```python
+# This is a single-line comment
+print("Hello, World!")  # You can also add a comment at the end of a line
+```
+
+---
+
+### 2. **Multi-line comment**
+
+Python doesn’t have a specific multi-line comment syntax, but you can use triple quotes `'''` or `"""` to write multi-line comments (commonly used for documentation).
+
+```python
+'''
+This is a multi-line comment.
+You can write multiple lines here.
+'''
+print("Python comments example")
+```
+
+OR
+
+```python
+"""
+This is also a multi-line comment.
+It works the same way.
+"""
+```
+
+---
+**Comments are super helpful when:**
+
+* Explaining what a piece of code does
+* Temporarily disabling code during debugging
+* Writing documentation for functions and classes
+
+---
