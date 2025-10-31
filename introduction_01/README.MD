@@ -13,18 +13,28 @@ Python is a **high-level, interpreted programming language** that’s known for 
 # **Practical Applications of Python**
 Python has numerous practical applications across various industries. Some of the top applications include:
 
-**Data Science and Analytics:** data analysis, machine learning, and visualization
-**Agentic AI:** building autonomous agents, chatbots, and virtual assistants
-**Machine Learning:** developing predictive models and recommender systems
-**Natural Language Processing (NLP):** text analysis, sentiment analysis, and language translation
-**Computer Vision:** image recognition, object detection, and facial recognition
-**Robotics:** building and controlling robots, drones, and autonomous vehicles
-**Web Development:** building web applications and frameworks
-**Artificial Intelligence and Machine Learning:** AI, ML, and deep learning
-**Automation and Scripting:** automating tasks and workflows
-**Scientific Computing:** scientific simulations and data analysis
-**Cybersecurity:** security testing and penetration testing
-**Internet of Things (IoT):** building IoT applications and devices
+**Data Science and Analytics: data analysis, machine learning, and visualization
+Agentic AI: building autonomous agents, chatbots, and virtual assistants
+
+Machine Learning: developing predictive models and recommender systems
+
+Natural Language Processing (NLP): text analysis, sentiment analysis, and language translation
+
+Computer Vision: image recognition, object detection, and facial recognition
+
+Robotics: building and controlling robots, drones, and autonomous vehicles
+
+Web Development: building web applications and frameworks
+
+Artificial Intelligence and Machine Learning: AI, ML, and deep learning
+
+Automation and Scripting: automating tasks and workflows
+
+Scientific Computing: scientific simulations and data analysis
+
+Cybersecurity: security testing and penetration testing
+
+Internet of Things (IoT): building IoT applications and devices
 ---
 # How Python works
 
