@@ -1,7 +1,6 @@
 # What is Python Programming
 Python is a **high-level, interpreted programming language** that’s known for being **easy to learn and read**. It was created by **Guido van Rossum** and first released in **1991**.
 
-Here’s a quick breakdown:
 
 **Key Features:**
 
