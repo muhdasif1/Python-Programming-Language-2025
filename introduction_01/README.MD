@@ -13,28 +13,18 @@ Python is a **high-level, interpreted programming language** that’s known for 
 # **Practical Applications of Python**
 Python has numerous practical applications across various industries. Some of the top applications include:
 
-Data Science and Analytics: data analysis, machine learning, and visualization
-Agentic AI: building autonomous agents, chatbots, and virtual assistants
-
-Machine Learning: developing predictive models and recommender systems
-
-Natural Language Processing (NLP): text analysis, sentiment analysis, and language translation
-
-Computer Vision: image recognition, object detection, and facial recognition
-
-Robotics: building and controlling robots, drones, and autonomous vehicles
-
-Web Development: building web applications and frameworks
-
-Artificial Intelligence and Machine Learning: AI, ML, and deep learning
-
-Automation and Scripting: automating tasks and workflows
-
-Scientific Computing: scientific simulations and data analysis
-
-Cybersecurity: security testing and penetration testing
-
-Internet of Things (IoT): building IoT applications and devices
+1. Data Science and Analytics: data analysis, machine learning, and visualization
+2. Agentic AI: building autonomous agents, chatbots, and virtual assistants
+3. Machine Learning: developing predictive models and recommender systems
+4. Natural Language Processing (NLP): text analysis, sentiment analysis, and language translation
+5. Computer Vision: image recognition, object detection, and facial recognition
+6. Robotics: building and controlling robots, drones, and autonomous vehicles
+7. Web Development: building web applications and frameworks
+8. Artificial Intelligence and Machine Learning: AI, ML, and deep learning
+9. Automation and Scripting: automating tasks and workflows
+10. Scientific Computing: scientific simulations and data analysis
+11. Cybersecurity: security testing and penetration testing
+12. Internet of Things (IoT): building IoT applications and devices
 ---
 # How Python works
 
