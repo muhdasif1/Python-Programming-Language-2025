@@ -57,7 +57,7 @@ Adds 5 + 3
 Prints **8**
 
 ---
- **comments** 
+# **comments** 
  are used to explain your code and make it easier to understand. They are ignored by the Python interpreter — meaning they don’t affect how the program runs.
 
 There are **two main types of comments**:
