@@ -15,8 +15,8 @@ This project demonstrates some fundamental features of Python:
 ```python
 print("hello World")
 print("""
-Welcome to Python Programming Language")
-Python is a powerful programming language")
+Welcome to Python Programming Language
+Python is a powerful programming language
 Python is a versatile programming language
 Python is a easy to learn programming language
 """)
