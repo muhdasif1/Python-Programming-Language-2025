@@ -13,7 +13,7 @@ Python is a **high-level, interpreted programming language** that’s known for 
 # **Practical Applications of Python**
 Python has numerous practical applications across various industries. Some of the top applications include:
 
-**Data Science and Analytics: data analysis, machine learning, and visualization
+Data Science and Analytics: data analysis, machine learning, and visualization
 Agentic AI: building autonomous agents, chatbots, and virtual assistants
 
 Machine Learning: developing predictive models and recommender systems
