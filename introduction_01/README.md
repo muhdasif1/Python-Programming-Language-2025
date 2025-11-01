@@ -112,10 +112,91 @@ It works the same way.
 ```
 
 ---
-**Comments are super helpful when:**
 
-* Explaining what a piece of code does
-* Temporarily disabling code during debugging
-* Writing documentation for functions and classes
+## **STRING METHODS**
+
+Used to work with text (words, sentences, etc.).
+
+| **Method**          | **Definition / What it does**                                         |
+| ------------------- | --------------------------------------------------------------------- |
+| `upper()`           | Converts all letters to uppercase.                                    |
+| `lower()`           | Converts all letters to lowercase.                                    |
+| `strip()`           | Removes extra spaces from the beginning and end of the string.        |
+| `replace(old, new)` | Replaces part of the string with another word or letter.              |
+| `split()`           | Splits the string into a list (by spaces by default).                 |
+| `join()`            | Joins elements of a list into one string with a separator (like `-`). |
+| `find()`            | Finds the position (index) of a substring in the string.              |
+| `count()`           | Counts how many times a character appears in the string.              |
+| `startswith()`      | Checks if the string starts with a given substring.                   |
+| `endswith()`        | Checks if the string ends with a given substring.                     |
+
+---
+
+## **INTEGER METHODS**
+
+Used to work with numbers (whole numbers only).
+
+| **Method**                 | **Definition / What it does**                                       |
+| -------------------------- | ------------------------------------------------------------------- |
+| `bit_length()`             | Returns how many bits are needed to represent the number in binary. |
+| `to_bytes(size, order)`    | Converts an integer into bytes (used in low-level programming).     |
+| `from_bytes(bytes, order)` | Converts bytes back into an integer.                                |
+
+---
+
+## **LIST METHODS**
+
+Used for lists (collections of items like fruits, names, etc.).
+
+| **Method**            | **Definition / What it does**                      |
+| --------------------- | -------------------------------------------------- |
+| `append()`            | Adds an item at the end of the list.               |
+| `insert(index, item)` | Adds an item at a specific position.               |
+| `remove(item)`        | Removes the first matching item from the list.     |
+| `sort()`              | Sorts the list in ascending order (A–Z, 1–9).      |
+| `reverse()`           | Reverses the order of the list.                    |
+| `count(item)`         | Counts how many times an item appears in the list. |
+| `index(item)`         | Returns the position of an item in the list.       |
+
+---
+
+## **TUPLE METHODS**
+
+Tuples are like lists, but they **cannot be changed** (they’re read-only).
+
+| **Method** | **Definition / What it does**               |
+| ---------- | ------------------------------------------- |
+| `count()`  | Counts how many times a value appears.      |
+| `index()`  | Finds the position of a value in the tuple. |
+
+---
+
+## **SET METHODS**
+
+Sets are unordered collections that automatically remove duplicates.
+
+| **Method**       | **Definition / What it does**                          |
+| ---------------- | ------------------------------------------------------ |
+| `union()`        | Combines two sets (no duplicates).                     |
+| `intersection()` | Returns only items that appear in **both** sets.       |
+| `difference()`   | Returns items that are in one set but not the other.   |
+| `add()`          | Adds an item to the set.                               |
+| `discard()`      | Removes an item if it exists (no error if it doesn’t). |
+
+---
+
+## **DICTIONARY METHODS**
+
+Dictionaries store data in **key–value pairs** (like a student’s name and age).
+
+| **Method** | **Definition / What it does**                           |
+| ---------- | ------------------------------------------------------- |
+| `keys()`   | Returns all keys in the dictionary.                     |
+| `values()` | Returns all values in the dictionary.                   |
+| `items()`  | Returns all key–value pairs as tuples.                  |
+| `update()` | Updates or adds new key–value pairs.                    |
+| `pop(key)` | Removes a key–value pair by key.                        |
+| `get(key)` | Returns the value of a key (no error if missing).       |
+| `clear()`  | Removes all items from the dictionary (makes it empty). |
 
 ---
