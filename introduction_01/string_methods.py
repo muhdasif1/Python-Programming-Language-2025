@@ -62,14 +62,45 @@ print("47. zfill():", "42".zfill(5))
 # ============================================================
 # INTEGER METHODS / FUNCTIONS
 # ============================================================
-print("\n=== INTEGER METHODS ===")
-x = -5
-y = 10
-print(abs(x))              # 5
-print(pow(2, 3))           # 8
-print(divmod(9, 2))        # (4, 1)
-print(int("42"))           # 42
-print((10).bit_length())   # 4
+# 🔢 Python Numeric Methods and Attributes Demonstration
+# Works for both int and float types
+
+# Integer examples
+num_int = 13
+print("Integer:", num_int)
+print("bit_count():", num_int.bit_count())
+print("bit_length():", num_int.bit_length())
+print("conjugate():", num_int.conjugate())
+print("to_bytes(2, 'big'):", num_int.to_bytes(2, 'big'))
+print()
+
+# Convert bytes back to int
+b = b'\x00\x10'
+print("from_bytes(b'\\x00\\x10', 'big'):", int.from_bytes(b, 'big'))
+print()
+
+# Float examples
+num_float = 2.5
+print("Float:", num_float)
+print("as_integer_ratio():", num_float.as_integer_ratio())
+print("is_integer():", num_float.is_integer())
+print("numerator:", num_float.as_integer_ratio()[0])
+print("denominator:", num_float.as_integer_ratio()[1])
+print()
+
+# Integer float check
+whole_float = 5.0
+print("Whole float:", whole_float)
+print("is_integer():", whole_float.is_integer())
+print()
+
+# Complex number example
+num_complex = 3 + 4j
+print("Complex number:", num_complex)
+print("real:", num_complex.real)
+print("imag:", num_complex.imag)
+print("conjugate():", num_complex.conjugate())
+print()
 
 # ============================================================
 # LIST METHODS
