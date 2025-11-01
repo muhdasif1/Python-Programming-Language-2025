@@ -112,12 +112,8 @@ It works the same way.
 ```
 
 ---
-
-## **STRING METHODS**
-
-Here’s a **complete and organized list** of the most commonly used **Python built-in methods** for
-**strings, integers, lists, tuples, sets, and dictionaries**, with short explanations and examples 👇
-
+# **PYTHON DATA TYPE METHODS AND FUNCTIONS**
+# Includes: STRING, INTEGER, LIST, TUPLE, SET, and DICTIONARY methods
 ---
 
 ## 🧵 **STRING METHODS**
