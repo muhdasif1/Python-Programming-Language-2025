@@ -225,23 +225,25 @@ Example: `t = (1, 2, 3)`
 ---
 
 ## **SET METHODS**
-
-Sets are unordered collections with no duplicates.
-Example: `s = {1, 2, 3}`
-
-| Method                    | Description                    | Example                         |
-| ------------------------- | ------------------------------ | ------------------------------- |
-| `add(x)`                  | Adds element                   | `s.add(4)`                      |
-| `remove(x)`               | Removes x (error if not found) | `s.remove(2)`                   |
-| `discard(x)`              | Removes x (no error)           | `s.discard(10)`                 |
-| `pop()`                   | Removes random element         | `s.pop()`                       |
-| `clear()`                 | Removes all                    | `s.clear()`                     |
-| `union(t)`                | Combines sets                  | `s.union({4,5})`                |
-| `intersection(t)`         | Common elements                | `s.intersection({2,3,4})`       |
-| `difference(t)`           | Elements not in t              | `s.difference({2,4})`           |
-| `symmetric_difference(t)` | Elements in one set only       | `s.symmetric_difference({2,4})` |
-| `issubset(t)`             | True if subset                 | `{1,2}.issubset({1,2,3})`       |
-| `issuperset(t)`           | True if superset               | `{1,2,3}.issuperset({1,2})`     |
+| Method                         | Description                               | Example                                           |
+| ------------------------------ | ----------------------------------------- | ------------------------------------------------- |
+| add(x)                         | Adds element `x`                          | `{1,2}.add(3)` → `{1,2,3}`                        |
+| clear()                        | Removes all elements                      | `{1,2}.clear()` → `set()`                         |
+| copy()                         | Returns a shallow copy                    | `{1,2}.copy()` → `{1,2}`                          |
+| difference(s)                  | Elements in one but not the other         | `{1,2,3}.difference({2,3})` → `{1}`               |
+| difference_update(s)           | Removes common elements                   | `A.difference_update(B)`                          |
+| discard(x)                     | Removes if present (no error)             | `{1,2,3}.discard(2)` → `{1,3}`                    |
+| intersection(s)                | Common elements                           | `{1,2,3}.intersection({2,3,4})` → `{2,3}`         |
+| intersection_update(s)         | Keeps only common                         | `A.intersection_update(B)`                        |
+| isdisjoint(s)                  | True if no common elements                | `{1,2}.isdisjoint({3,4})` → `True`                |
+| issubset(s)                    | True if all elements in `s`               | `{1,2}.issubset({1,2,3})` → `True`                |
+| issuperset(s)                  | True if contains all of `s`               | `{1,2,3}.issuperset({2,3})` → `True`              |
+| pop()                          | Removes and returns random element        | `{1,2,3}.pop()`                                   |
+| remove(x)                      | Removes element (error if missing)        | `{1,2}.remove(2)` → `{1}`                         |
+| symmetric_difference(s)        | Elements in one or the other but not both | `{1,2,3}.symmetric_difference({3,4})` → `{1,2,4}` |
+| symmetric_difference_update(s) | Updates with symmetric diff               | `A.symmetric_difference_update(B)`                |
+| union(s)                       | Combines all unique elements              | `{1,2}.union({2,3})` → `{1,2,3}`                  |
+| update(s)                      | Adds elements from another set            | `A.update(B)`                                     |
 
 ---
 
