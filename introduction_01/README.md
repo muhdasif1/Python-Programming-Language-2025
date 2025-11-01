@@ -116,7 +116,7 @@ It works the same way.
 # Includes: STRING, INTEGER, LIST, TUPLE, SET, and DICTIONARY methods
 ---
 
-## 🧵 **STRING METHODS**
+## **STRING METHODS**
 
 Strings are sequences of characters (text).
 Example: `s = "Hello World"`
@@ -172,43 +172,47 @@ Example: `s = "Hello World"`
 
 ---
 
-## 🔢 **INTEGER (int) METHODS**
+## **INTEGER (int) METHODS**
+# Python `int` and `float` Methods & Attributes
 
-Integers are numbers without decimals.
-Integers don’t have many “methods,” but you can use **built-in functions** on them:
+| Method / Attribute       | Description                                         | Example                                               |
+| ------------------------- | --------------------------------------------------- | ----------------------------------------------------- |
+| as_integer_ratio()        | Returns a pair of integers (numerator, denominator) | (2.5).as_integer_ratio() → (5, 2)                     |
+| bit_count()               | Returns number of 1 bits in binary representation   | (13).bit_count() → 3                                  |
+| bit_length()              | Returns number of bits required to represent number | (13).bit_length() → 4                                 |
+| conjugate()               | Returns the complex conjugate (for real numbers, itself) | (5).conjugate() → 5                              |
+| denominator               | Denominator of a rational number                   | (3.5).as_integer_ratio()[1] → 2                       |
+| from_bytes(bytes, byteorder) | Converts bytes to an integer                     | int.from_bytes(b'\x00\x10', 'big') → 16               |
+| imag                      | Imaginary part of a number                         | (3+4j).imag → 4                                       |
+| is_integer()              | True if float has no fractional part               | (5.0).is_integer() → True                             |
+| numerator                 | Numerator of a rational number                     | (3.5).as_integer_ratio()[0] → 7                       |
+| real                      | Real part of a number                              | (3+4j).real → 3                                       |
+| to_bytes(length, byteorder) | Returns bytes representing integer                | (16).to_bytes(2, 'big') → b'\x00\x10'                 |
 
-| Function/Method | Description                   | Example                   |
-| --------------- | ----------------------------- | ------------------------- |
-| `abs(x)`        | Absolute value                | `abs(-5)` → `5`           |
-| `pow(x, y)`     | Power of x^y                  | `pow(2, 3)` → `8`         |
-| `divmod(a, b)`  | Returns (quotient, remainder) | `divmod(9, 2)` → `(4, 1)` |
-| `int(x)`        | Converts to integer           | `int("12")` → `12`        |
-| `bit_length()`  | Number of bits to represent   | `(10).bit_length()` → `4` |
-
----
-
-## 🧮 **LIST METHODS**
-
-Lists are mutable (changeable) sequences.
-Example: `lst = [1, 2, 3]`
-
-| Method             | Description                 | Example                       |
-| ------------------ | --------------------------- | ----------------------------- |
-| `append(x)`        | Adds an element at end      | `lst.append(4)` → `[1,2,3,4]` |
-| `extend(iterable)` | Adds multiple elements      | `lst.extend([5,6])`           |
-| `insert(i, x)`     | Adds at index i             | `lst.insert(1, 99)`           |
-| `remove(x)`        | Removes first occurrence    | `lst.remove(2)`               |
-| `pop(i)`           | Removes and returns element | `lst.pop(0)` → removes first  |
-| `clear()`          | Empties list                | `lst.clear()`                 |
-| `index(x)`         | Returns index of x          | `lst.index(3)`                |
-| `count(x)`         | Counts x                    | `[1,1,2].count(1)` → `2`      |
-| `sort()`           | Sorts list ascending        | `lst.sort()`                  |
-| `reverse()`        | Reverses list               | `lst.reverse()`               |
-| `copy()`           | Shallow copy                | `b = lst.copy()`              |
 
 ---
 
-## 🔗 **TUPLE METHODS**
+## **LIST METHODS**
+
+| Method               | Description                                   | Example                                      |
+| -------------------- | --------------------------------------------- | -------------------------------------------- |
+| append(x)            | Adds an item to the end of the list           | fruits.append("orange") → ["apple", "banana", "orange"] |
+| clear()              | Removes all items from the list               | fruits.clear() → []                          |
+| copy()               | Returns a shallow copy of the list            | new_list = fruits.copy() → ["apple", "banana"] |
+| count(x)             | Returns number of occurrences of x            | [1, 2, 2, 3].count(2) → 2                    |
+| extend(iterable)     | Adds elements of another iterable (like list) | fruits.extend(["mango", "grape"]) → ["apple", "banana", "mango", "grape"] |
+| index(x)             | Returns index of first occurrence of x        | ["a", "b", "c"].index("b") → 1               |
+| insert(i, x)         | Inserts item x at position i                  | fruits.insert(1, "kiwi") → ["apple", "kiwi", "banana"] |
+| pop(i)               | Removes and returns item at index i (last if not given) | fruits.pop() → removes last item |
+| remove(x)            | Removes first occurrence of value x           | fruits.remove("banana") → ["apple", "cherry"] |
+| reverse()            | Reverses the elements of the list in place    | fruits.reverse() → ["cherry", "banana", "apple"] |
+| sort()               | Sorts the list in ascending order             | numbers.sort() → [1, 2, 3, 4]                |
+| sort(reverse=True)   | Sorts the list in descending order            | numbers.sort(reverse=True) → [4, 3, 2, 1]    |
+
+
+---
+
+## **TUPLE METHODS**
 
 Tuples are like lists but **immutable** (cannot be changed).
 Example: `t = (1, 2, 3)`
@@ -220,7 +224,7 @@ Example: `t = (1, 2, 3)`
 
 ---
 
-## 🧩 **SET METHODS**
+## **SET METHODS**
 
 Sets are unordered collections with no duplicates.
 Example: `s = {1, 2, 3}`
@@ -241,7 +245,7 @@ Example: `s = {1, 2, 3}`
 
 ---
 
-## 🗂️ **DICTIONARY METHODS**
+## **DICTIONARY METHODS**
 
 Dictionaries store **key-value pairs**.
 Example: `d = {"a": 1, "b": 2}`
