@@ -120,23 +120,55 @@ It works the same way.
 
 Strings are sequences of characters (text).
 Example: `s = "Hello World"`
-
-| Method               | Description                               | Example                                   |
-| -------------------- | ----------------------------------------- | ----------------------------------------- |
-| `s.upper()`          | Converts all letters to uppercase         | `"hello".upper()` → `"HELLO"`             |
-| `s.lower()`          | Converts all letters to lowercase         | `"HELLO".lower()` → `"hello"`             |
-| `s.title()`          | Capitalizes the first letter of each word | `"hello world".title()` → `"Hello World"` |
-| `s.capitalize()`     | Capitalizes the first letter only         | `"hello".capitalize()` → `"Hello"`        |
-| `s.strip()`          | Removes spaces from start and end         | `" hello ".strip()` → `"hello"`           |
-| `s.replace(a, b)`    | Replaces `a` with `b`                     | `"hello".replace("l", "x")` → `"hexxo"`   |
-| `s.split(delimiter)` | Splits string into list                   | `"a,b,c".split(",")` → `["a","b","c"]`    |
-| `s.join(list)`       | Joins list into string                    | `",".join(["a","b"])` → `"a,b"`           |
-| `s.find(sub)`        | Returns index of substring                | `"hello".find("e")` → `1`                 |
-| `s.count(sub)`       | Counts occurrences                        | `"banana".count("a")` → `3`               |
-| `s.isalpha()`        | True if all letters                       | `"abc".isalpha()` → `True`                |
-| `s.isdigit()`        | True if all digits                        | `"123".isdigit()` → `True`                |
-| `s.startswith(x)`    | Checks if starts with x                   | `"hello".startswith("he")` → `True`       |
-| `s.endswith(x)`      | Checks if ends with x                     | `"hello".endswith("lo")` → `True`         |
+| Method                  | Description                                      | Example                                            |
+| ----------------------- | ------------------------------------------------ | -------------------------------------------------- |
+| capitalize()            | Capitalizes the first letter and lowers the rest | "hello world".capitalize() → "Hello world"         |
+| casefold()              | Converts to lowercase (stronger than lower())    | "HELLO".casefold() → "hello"                       |
+| center(width, fillchar) | Centers string using spaces or a fill character  | "hi".center(10, "-") → "----hi----"                |
+| count(sub)              | Counts occurrences of a substring                | "banana".count("a") → 3                            |
+| encode(encoding)        | Returns encoded version of string (bytes)        | "hello".encode() → b'hello'                        |
+| endswith(suffix)        | Checks if string ends with suffix                | "test.py".endswith(".py") → True                   |
+| expandtabs(tabsize)     | Replaces tabs \t with spaces                     | "hi\tthere".expandtabs(4) → "hi  there"            |
+| find(sub)               | Finds index of first occurrence or -1            | "apple".find("p") → 1                              |
+| format(*args, **kwargs) | Inserts values into {} placeholders              | "My name is {}".format("Asif") → "My name is Asif" |
+| format_map(mapping)     | Formats using a dictionary                       | "{name}".format_map({"name": "Asif"}) → "Asif"     |
+| index(sub)              | Like find() but raises error if not found        | "apple".index("p") → 1                             |
+| isalnum()               | True if all characters are letters or numbers    | "abc123".isalnum() → True                          |
+| isalpha()               | True if all characters are letters               | "abc".isalpha() → True                             |
+| isascii()               | True if all characters are ASCII                 | "Hello!".isascii() → True                          |
+| isdecimal()             | True if all are decimal characters               | "123".isdecimal() → True                           |
+| isdigit()               | True if all are digits                           | "123".isdigit() → True                             |
+| isidentifier()          | True if valid Python identifier                  | "name1".isidentifier() → True                      |
+| islower()               | True if all letters are lowercase                | "hello".islower() → True                           |
+| isnumeric()             | True if all characters are numeric               | "12345".isnumeric() → True                         |
+| isprintable()           | True if all characters are printable             | "hi!".isprintable() → True                         |
+| isspace()               | True if only whitespace                          | "   ".isspace() → True                             |
+| istitle()               | True if each word starts uppercase               | "Hello World".istitle() → True                     |
+| isupper()               | True if all letters are uppercase                | "HELLO".isupper() → True                           |
+| join(iterable)          | Joins elements of a list with the string         | "-".join(["a", "b"]) → "a-b"                       |
+| ljust(width, fillchar)  | Left-justifies string in given width             | "hi".ljust(5, "-") → "hi---"                       |
+| lower()                 | Converts all to lowercase                        | "HELLO".lower() → "hello"                          |
+| lstrip(chars)           | Removes spaces (or chars) from left              | "   hi".lstrip() → "hi"                            |
+| maketrans(x, y, z)      | Creates translation table for translate()        | str.maketrans("a", "1")                            |
+| partition(sep)          | Splits into (before, sep, after)                 | "name:Asif".partition(":") → ('name', ':', 'Asif') |
+| removeprefix(prefix)    | Removes prefix if present                        | "unhappy".removeprefix("un") → "happy"             |
+| removesuffix(suffix)    | Removes suffix if present                        | "testing".removesuffix("ing") → "test"             |
+| replace(old, new)       | Replaces old substring with new                  | "hello".replace("l", "x") → "hexxo"                |
+| rfind(sub)              | Finds last index of substring                    | "banana".rfind("a") → 5                            |
+| rindex(sub)             | Like rfind() but raises error if not found       | "banana".rindex("a") → 5                           |
+| rjust(width, fillchar)  | Right-justifies string                           | "hi".rjust(5, "-") → "---hi"                       |
+| rpartition(sep)         | Like partition(), starts from right              | "a:b:c".rpartition(":") → ('a:b', ':', 'c')        |
+| rsplit(sep, maxsplit)   | Splits from right side                           | "a,b,c".rsplit(",", 1) → ['a,b', 'c']              |
+| rstrip(chars)           | Removes spaces (or chars) from right             | "hi   ".rstrip() → "hi"                            |
+| split(sep, maxsplit)    | Splits into list                                 | "a b c".split() → ['a', 'b', 'c']                  |
+| splitlines(keepends)    | Splits string by line breaks                     | "Hi\nBye".splitlines() → ['Hi', 'Bye']             |
+| startswith(prefix)      | Checks if starts with prefix                     | "hello".startswith("he") → True                    |
+| strip(chars)            | Removes spaces (or chars) both sides             | "  hello  ".strip() → "hello"                      |
+| swapcase()              | Swaps uppercase ↔ lowercase                      | "HeLLo".swapcase() → "hEllO"                       |
+| title()                 | Capitalizes first letter of each word            | "hello world".title() → "Hello World"              |
+| translate(table)        | Replaces chars using translation table           | "abc".translate(str.maketrans("a", "1")) → "1bc"   |
+| upper()                 | Converts all letters to uppercase                | "hello".upper() → "HELLO"                          |
+| zfill(width)            | Pads number string with zeros                    | "42".zfill(5) → "00042"                            |
 
 ---
 
