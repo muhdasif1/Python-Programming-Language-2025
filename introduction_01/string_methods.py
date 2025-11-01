@@ -1,7 +1,7 @@
 # -------------------------------
 # STRING METHODS
 # -------------------------------
-print("🔤 STRING METHODS")
+print("STRING METHODS")
 text = "  hello world  "
 print("upper():", text.upper())
 print("lower():", text.lower())
@@ -18,7 +18,7 @@ print()
 # -------------------------------
 # INTEGER METHODS (int)
 # -------------------------------
-print("🔢 INTEGER EXAMPLES")
+print("INTEGER EXAMPLES")
 num = 25
 print("bit_length():", num.bit_length())  # Returns bits needed to represent number
 print("to_bytes():", num.to_bytes(2, 'big'))  # Converts int to bytes
@@ -28,7 +28,7 @@ print()
 # -------------------------------
 # LIST METHODS
 # -------------------------------
-print("📜 LIST METHODS")
+print("LIST METHODS")
 fruits = ["apple", "banana", "cherry"]
 fruits.append("orange")
 print("append():", fruits)
@@ -47,7 +47,7 @@ print()
 # -------------------------------
 # TUPLE METHODS
 # -------------------------------
-print("🔗 TUPLE METHODS")
+print("TUPLE METHODS")
 numbers = (1, 2, 2, 3)
 print("count():", numbers.count(2))
 print("index():", numbers.index(3))
@@ -56,7 +56,7 @@ print()
 # -------------------------------
 # SET METHODS
 # -------------------------------
-print("🧩 SET METHODS")
+print("SET METHODS")
 s1 = {1, 2, 3}
 s2 = {3, 4, 5}
 print("union():", s1.union(s2))
@@ -69,7 +69,7 @@ print()
 # -------------------------------
 # DICTIONARY METHODS
 # -------------------------------
-print("📚 DICTIONARY METHODS")
+print("DICTIONARY METHODS")
 student = {"name": "Ali", "age": 15, "class": "10th"}
 print("keys():", student.keys())
 print("values():", student.values())
