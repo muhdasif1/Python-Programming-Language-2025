@@ -115,20 +115,26 @@ It works the same way.
 
 ## **STRING METHODS**
 
-Used to work with text (words, sentences, etc.).
 
-| **Method**          | **Definition / What it does**                                         |
-| ------------------- | --------------------------------------------------------------------- |
-| `upper()`           | Converts all letters to uppercase.                                    |
-| `lower()`           | Converts all letters to lowercase.                                    |
-| `strip()`           | Removes extra spaces from the beginning and end of the string.        |
-| `replace(old, new)` | Replaces part of the string with another word or letter.              |
-| `split()`           | Splits the string into a list (by spaces by default).                 |
-| `join()`            | Joins elements of a list into one string with a separator (like `-`). |
-| `find()`            | Finds the position (index) of a substring in the string.              |
-| `count()`           | Counts how many times a character appears in the string.              |
-| `startswith()`      | Checks if the string starts with a given substring.                   |
-| `endswith()`        | Checks if the string ends with a given substring.                     |
+
+| **Method**          | **Description**                                  | **Example**                                             |
+| ------------------- | ------------------------------------------------ | ------------------------------------------------------- |
+| `upper()`           | Converts all characters to uppercase             | `"hello".upper()` → `"HELLO"`                           |
+| `lower()`           | Converts all characters to lowercase             | `"HELLO".lower()` → `"hello"`                           |
+| `title()`           | Capitalizes the first letter of each word        | `"python programming".title()` → `"Python Programming"` |
+| `capitalize()`      | Capitalizes only the first letter of the string  | `"python".capitalize()` → `"Python"`                    |
+| `strip()`           | Removes spaces from the beginning and end        | `"  hi  ".strip()` → `"hi"`                             |
+| `replace(old, new)` | Replaces part of the string with another         | `"apple".replace("a", "o")` → `"opple"`                 |
+| `split()`           | Splits string into a list (by spaces by default) | `"a b c".split()` → `["a", "b", "c"]`                   |
+| `join()`            | Joins elements of a list into a single string    | `" ".join(["a", "b", "c"])` → `"a b c"`                 |
+| `find()`            | Finds the first index of a substring             | `"hello".find("e")` → `1`                               |
+| `count()`           | Counts how many times a substring appears        | `"banana".count("a")` → `3`                             |
+| `startswith()`      | Checks if a string starts with a given value     | `"hello".startswith("he")` → `True`                     |
+| `endswith()`        | Checks if a string ends with a given value       | `"hello".endswith("lo")` → `True`                       |
+| `isdigit()`         | Returns `True` if all characters are digits      | `"123".isdigit()` → `True`                              |
+| `isalpha()`         | Returns `True` if all characters are letters     | `"abc".isalpha()` → `True`                              |
+| `islower()`         | Returns `True` if all characters are lowercase   | `"abc".islower()` → `True`                              |
+| `isupper()`         | Returns `True` if all characters are uppercase   | `"ABC".isupper()` → `True`                              |
 
 ---
 
