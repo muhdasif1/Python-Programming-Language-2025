@@ -1,8 +1,6 @@
 # ============================================================
 # STRING METHODS
 # ============================================================
-# 🐍 Python String Methods Demo
-# Author: Muhammad Asif
 
 text = "hello world"
 num_text = "12345"
@@ -59,21 +57,42 @@ print("44. title():", "hello world".title())
 print("45. translate():", "abc".translate(str.maketrans("a", "1")))
 print("46. upper():", "hello".upper())
 print("47. zfill():", "42".zfill(5))
-
-print("\nAll string methods demonstrated successfully!")
-
-
+print()
 # ============================================================
 # INTEGER METHODS / FUNCTIONS
 # ============================================================
-print("\n=== INTEGER METHODS ===")
-x = -5
-y = 10
-print(abs(x))              # 5
-print(pow(2, 3))           # 8
-print(divmod(9, 2))        # (4, 1)
-print(int("42"))           # 42
-print((10).bit_length())   # 4
+
+# Sample list
+fruits = ["apple", "banana", "cherry"]
+numbers = [3, 1, 4, 2]
+
+print("Original lists:")
+print("fruits =", fruits)
+print("numbers =", numbers)
+print("-" * 50)
+fruits.append("orange")
+print("1. append():", fruits)
+temp = fruits.copy()
+temp.clear()
+print("2. clear():", temp)
+new_list = fruits.copy()
+print("3. copy():", new_list)
+print("4. count():", fruits.count("banana"))
+fruits.extend(["mango", "grape"])
+print("5. extend():", fruits)
+print("6. index():", fruits.index("banana"))
+fruits.insert(1, "kiwi")
+print("7. insert():", fruits)
+removed_item = fruits.pop()
+print("8. pop():", fruits, "→ removed:", removed_item)
+fruits.remove("banana")
+print("9. remove():", fruits)
+fruits.reverse()
+print("10. reverse():", fruits)
+numbers.sort()
+print("11. sort():", numbers)
+numbers.sort(reverse=True)
+print("   sort(reverse=True):", numbers)
 
 # ============================================================
 # LIST METHODS
