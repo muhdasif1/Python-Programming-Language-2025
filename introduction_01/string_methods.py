@@ -150,20 +150,47 @@ print(t.index(3))          # 3
 # SET METHODS
 # ============================================================
 print("\n=== SET METHODS ===")
-s = {1, 2, 3}
-s.add(4)
-print(s)                   # {1, 2, 3, 4}
-s.discard(2)
-print(s)                   # {1, 3, 4}
-s2 = {3, 4, 5, 6}
-print(s.union(s2))         # {1, 3, 4, 5, 6}
-print(s.intersection(s2))  # {3, 4}
-print(s.difference(s2))    # {1}
-print(s.symmetric_difference(s2))  # {1, 5, 6}
-print(s.issubset({1, 3, 4, 5}))    # True
-print(s.issuperset({3}))           # True
-s.clear()
-print(s)                   # set()
+set_a = {1, 2, 3, 4}
+set_b = {3, 4, 5, 6}
+
+print("Initial sets:")
+print("A =", set_a)
+print("B =", set_b)
+print()
+set_a.add(7)
+print("add(7):", set_a)
+temp = {1, 2, 3}
+temp.clear()
+print("clear():", temp)
+copy_set = set_a.copy()
+print("copy():", copy_set)
+print("difference(B):", set_a.difference(set_b))  # A - B
+temp = set_a.copy()
+temp.difference_update(set_b)
+print("difference_update(B):", temp)
+temp = set_a.copy()
+temp.discard(2)
+print("discard(2):", temp)
+print("intersection(B):", set_a.intersection(set_b))
+temp = set_a.copy()
+temp.intersection_update(set_b)
+print("intersection_update(B):", temp)
+print("isdisjoint(B):", set_a.isdisjoint({7, 8, 9}))
+print("issubset(B):", {1, 2}.issubset(set_a))
+print("issuperset(B):", set_a.issuperset({1, 2}))
+temp = set_a.copy()
+print("pop():", temp.pop(), "| remaining:", temp)
+temp = set_a.copy()
+temp.remove(4)
+print("remove(4):", temp)
+print("symmetric_difference(B):", set_a.symmetric_difference(set_b))
+temp = set_a.copy()
+temp.symmetric_difference_update(set_b)
+print("symmetric_difference_update(B):", temp)
+print("union(B):", set_a.union(set_b))
+temp = {1, 2}
+temp.update({3, 4, 5})
+print("update({3, 4, 5}):", temp)
 
 # ============================================================
 # DICTIONARY METHODS
