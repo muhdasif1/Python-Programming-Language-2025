@@ -1,22 +1,67 @@
 # ============================================================
 # STRING METHODS
 # ============================================================
-print("=== STRING METHODS ===")
-s = " Hello World "
-print(s.upper())           # HELLO WORLD
-print(s.lower())           # hello world
-print(s.title())           # Hello World
-print(s.capitalize())      #  hello world
-print(s.strip())           # Hello World
-print(s.replace("World", "Python"))  #  Hello Python
-print(s.split())           # ['Hello', 'World']
-print("-".join(["a", "b", "c"]))     # a-b-c
-print(s.find("World"))     # index of "World"
-print(s.count("l"))        # number of 'l'
-print("abc".isalpha())     # True
-print("123".isdigit())     # True
-print(s.startswith(" H"))  # True
-print(s.endswith("d "))    # True
+# 🐍 Python String Methods Demo
+# Author: Muhammad Asif
+
+text = "hello world"
+num_text = "12345"
+mixed_text = "Hello123"
+space_text = "   "
+tab_text = "hi\tthere"
+list_text = ["a", "b", "c"]
+
+print("1. capitalize():", text.capitalize())
+print("2. casefold():", "HELLO".casefold())
+print("3. center():", "hi".center(10, "-"))
+print("4. count():", "banana".count("a"))
+print("5. encode():", "hello".encode())
+print("6. endswith():", "test.py".endswith(".py"))
+print("7. expandtabs():", tab_text.expandtabs(4))
+print("8. find():", "apple".find("p"))
+print("9. format():", "My name is {}".format("Asif"))
+print("10. format_map():", "{name}".format_map({"name": "Asif"}))
+print("11. index():", "apple".index("p"))
+print("12. isalnum():", mixed_text.isalnum())
+print("13. isalpha():", "abc".isalpha())
+print("14. isascii():", "Hello!".isascii())
+print("15. isdecimal():", num_text.isdecimal())
+print("16. isdigit():", num_text.isdigit())
+print("17. isidentifier():", "name1".isidentifier())
+print("18. islower():", text.islower())
+print("19. isnumeric():", num_text.isnumeric())
+print("20. isprintable():", "hi!".isprintable())
+print("21. isspace():", space_text.isspace())
+print("22. istitle():", "Hello World".istitle())
+print("23. isupper():", "HELLO".isupper())
+print("24. join():", "-".join(list_text))
+print("25. ljust():", "hi".ljust(5, "-"))
+print("26. lower():", "HELLO".lower())
+print("27. lstrip():", "   hi".lstrip())
+table = str.maketrans("a", "1")
+print("28. maketrans():", table)
+print("29. partition():", "name:Asif".partition(":"))
+print("30. removeprefix():", "unhappy".removeprefix("un"))
+print("31. removesuffix():", "testing".removesuffix("ing"))
+print("32. replace():", "hello".replace("l", "x"))
+print("33. rfind():", "banana".rfind("a"))
+print("34. rindex():", "banana".rindex("a"))
+print("35. rjust():", "hi".rjust(5, "-"))
+print("36. rpartition():", "a:b:c".rpartition(":"))
+print("37. rsplit():", "a,b,c".rsplit(",", 1))
+print("38. rstrip():", "hi   ".rstrip())
+print("39. split():", "a b c".split())
+print("40. splitlines():", "Hi\nBye".splitlines())
+print("41. startswith():", "hello".startswith("he"))
+print("42. strip():", "  hello  ".strip())
+print("43. swapcase():", "HeLLo".swapcase())
+print("44. title():", "hello world".title())
+print("45. translate():", "abc".translate(str.maketrans("a", "1")))
+print("46. upper():", "hello".upper())
+print("47. zfill():", "42".zfill(5))
+
+print("\nAll string methods demonstrated successfully!")
+
 
 # ============================================================
 # INTEGER METHODS / FUNCTIONS
