@@ -196,18 +196,33 @@ print("update({3, 4, 5}):", temp)
 # DICTIONARY METHODS
 # ============================================================
 print("\n=== DICTIONARY METHODS ===")
-d = {"a": 1, "b": 2, "c": 3}
-print(d.get("a"))          # 1
-print(d.keys())            # dict_keys(['a', 'b', 'c'])
-print(d.values())          # dict_values([1, 2, 3])
-print(d.items())           # dict_items([('a', 1), ('b', 2), ('c', 3)])
-d.update({"d": 4})
-print(d)                   # {'a':1, 'b':2, 'c':3, 'd':4}
-print(d.pop("b"))          # removes and returns 2
-print(d.popitem())         # removes last item
-d.setdefault("x", 99)
-print(d)                   # {'a': 1, 'c': 3, 'x': 99}
-copy_dict = d.copy()
-print(copy_dict)
-d.clear()
-print(d)                   # {}
+person = {"name": "Asif", "age": 17, "city": "Lahore"}
+
+print("Original dictionary:")
+print(person)
+print()
+temp = person.copy()
+temp.clear()
+print("clear():", temp)
+copy_dict = person.copy()
+print("copy():", copy_dict)
+keys = ["name", "age", "city"]
+new_dict = dict.fromkeys(keys, "unknown")
+print("fromkeys():", new_dict)
+print("get('name'):", person.get("name"))
+print("get('country', 'Not Found'):", person.get("country", "Not Found"))
+print("items():", person.items())
+print("keys():", person.keys())
+temp = person.copy()
+removed_value = temp.pop("age")
+print("pop('age'):", removed_value, "| after pop:", temp)
+temp = person.copy()
+last_item = temp.popitem()
+print("popitem():", last_item, "| after popitem:", temp)
+temp = person.copy()
+temp.setdefault("country", "Pakistan")
+print("setdefault('country', 'Pakistan'):", temp)
+temp = person.copy()
+temp.update({"age": 18, "city": "Karachi"})
+print("update({'age': 18, 'city': 'Karachi'}):", temp)
+print("values():", person.values())
