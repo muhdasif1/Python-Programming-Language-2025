@@ -1,8 +1,6 @@
 # ============================================================
 # STRING METHODS
 # ============================================================
-# 🐍 Python String Methods Demo
-# Author: Muhammad Asif
 
 text = "hello world"
 num_text = "12345"
@@ -76,8 +74,6 @@ print((10).bit_length())   # 4
 # ============================================================
 # LIST METHODS
 # ============================================================
-# 🐍 Python List Methods Demo
-# Author: Muhammad Asif
 
 # Sample list
 fruits = ["apple", "banana", "cherry"]
@@ -87,56 +83,29 @@ print("Original lists:")
 print("fruits =", fruits)
 print("numbers =", numbers)
 print("-" * 50)
-
-# 1. append() - Adds an item to the end
 fruits.append("orange")
 print("1. append():", fruits)
-
-# 2. clear() - Removes all items
 temp = fruits.copy()
 temp.clear()
 print("2. clear():", temp)
-
-# 3. copy() - Returns a shallow copy
 new_list = fruits.copy()
 print("3. copy():", new_list)
-
-# 4. count() - Counts occurrences of an element
 print("4. count():", fruits.count("banana"))
-
-# 5. extend() - Adds elements of another list
 fruits.extend(["mango", "grape"])
 print("5. extend():", fruits)
-
-# 6. index() - Returns the first index of a value
 print("6. index():", fruits.index("banana"))
-
-# 7. insert() - Inserts at a specific position
 fruits.insert(1, "kiwi")
 print("7. insert():", fruits)
-
-# 8. pop() - Removes and returns item by index (default last)
 removed_item = fruits.pop()
 print("8. pop():", fruits, "→ removed:", removed_item)
-
-# 9. remove() - Removes first occurrence of a value
 fruits.remove("banana")
 print("9. remove():", fruits)
-
-# 10. reverse() - Reverses the list in place
 fruits.reverse()
 print("10. reverse():", fruits)
-
-# 11. sort() - Sorts the list (ascending by default)
 numbers.sort()
 print("11. sort():", numbers)
-
-# Optional: sort descending
 numbers.sort(reverse=True)
 print("   sort(reverse=True):", numbers)
-
-print("\n✅ All list methods demonstrated successfully!")
-
 
 # ============================================================
 # TUPLE METHODS
