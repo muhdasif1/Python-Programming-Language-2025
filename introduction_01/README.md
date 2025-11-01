@@ -115,94 +115,120 @@ It works the same way.
 
 ## **STRING METHODS**
 
-
-
-| **Method**          | **Description**                                  | **Example**                                             |
-| ------------------- | ------------------------------------------------ | ------------------------------------------------------- |
-| `upper()`           | Converts all characters to uppercase             | `"hello".upper()` → `"HELLO"`                           |
-| `lower()`           | Converts all characters to lowercase             | `"HELLO".lower()` → `"hello"`                           |
-| `title()`           | Capitalizes the first letter of each word        | `"python programming".title()` → `"Python Programming"` |
-| `capitalize()`      | Capitalizes only the first letter of the string  | `"python".capitalize()` → `"Python"`                    |
-| `strip()`           | Removes spaces from the beginning and end        | `"  hi  ".strip()` → `"hi"`                             |
-| `replace(old, new)` | Replaces part of the string with another         | `"apple".replace("a", "o")` → `"opple"`                 |
-| `split()`           | Splits string into a list (by spaces by default) | `"a b c".split()` → `["a", "b", "c"]`                   |
-| `join()`            | Joins elements of a list into a single string    | `" ".join(["a", "b", "c"])` → `"a b c"`                 |
-| `find()`            | Finds the first index of a substring             | `"hello".find("e")` → `1`                               |
-| `count()`           | Counts how many times a substring appears        | `"banana".count("a")` → `3`                             |
-| `startswith()`      | Checks if a string starts with a given value     | `"hello".startswith("he")` → `True`                     |
-| `endswith()`        | Checks if a string ends with a given value       | `"hello".endswith("lo")` → `True`                       |
-| `isdigit()`         | Returns `True` if all characters are digits      | `"123".isdigit()` → `True`                              |
-| `isalpha()`         | Returns `True` if all characters are letters     | `"abc".isalpha()` → `True`                              |
-| `islower()`         | Returns `True` if all characters are lowercase   | `"abc".islower()` → `True`                              |
-| `isupper()`         | Returns `True` if all characters are uppercase   | `"ABC".isupper()` → `True`                              |
+Here’s a **complete and organized list** of the most commonly used **Python built-in methods** for
+**strings, integers, lists, tuples, sets, and dictionaries**, with short explanations and examples 👇
 
 ---
 
-## **INTEGER METHODS**
+## 🧵 **STRING METHODS**
 
-Used to work with numbers (whole numbers only).
+Strings are sequences of characters (text).
+Example: `s = "Hello World"`
 
-| **Method**                 | **Definition / What it does**                                       |
-| -------------------------- | ------------------------------------------------------------------- |
-| `bit_length()`             | Returns how many bits are needed to represent the number in binary. |
-| `to_bytes(size, order)`    | Converts an integer into bytes (used in low-level programming).     |
-| `from_bytes(bytes, order)` | Converts bytes back into an integer.                                |
-
----
-
-## **LIST METHODS**
-
-Used for lists (collections of items like fruits, names, etc.).
-
-| **Method**            | **Definition / What it does**                      |
-| --------------------- | -------------------------------------------------- |
-| `append()`            | Adds an item at the end of the list.               |
-| `insert(index, item)` | Adds an item at a specific position.               |
-| `remove(item)`        | Removes the first matching item from the list.     |
-| `sort()`              | Sorts the list in ascending order (A–Z, 1–9).      |
-| `reverse()`           | Reverses the order of the list.                    |
-| `count(item)`         | Counts how many times an item appears in the list. |
-| `index(item)`         | Returns the position of an item in the list.       |
+| Method               | Description                               | Example                                   |
+| -------------------- | ----------------------------------------- | ----------------------------------------- |
+| `s.upper()`          | Converts all letters to uppercase         | `"hello".upper()` → `"HELLO"`             |
+| `s.lower()`          | Converts all letters to lowercase         | `"HELLO".lower()` → `"hello"`             |
+| `s.title()`          | Capitalizes the first letter of each word | `"hello world".title()` → `"Hello World"` |
+| `s.capitalize()`     | Capitalizes the first letter only         | `"hello".capitalize()` → `"Hello"`        |
+| `s.strip()`          | Removes spaces from start and end         | `" hello ".strip()` → `"hello"`           |
+| `s.replace(a, b)`    | Replaces `a` with `b`                     | `"hello".replace("l", "x")` → `"hexxo"`   |
+| `s.split(delimiter)` | Splits string into list                   | `"a,b,c".split(",")` → `["a","b","c"]`    |
+| `s.join(list)`       | Joins list into string                    | `",".join(["a","b"])` → `"a,b"`           |
+| `s.find(sub)`        | Returns index of substring                | `"hello".find("e")` → `1`                 |
+| `s.count(sub)`       | Counts occurrences                        | `"banana".count("a")` → `3`               |
+| `s.isalpha()`        | True if all letters                       | `"abc".isalpha()` → `True`                |
+| `s.isdigit()`        | True if all digits                        | `"123".isdigit()` → `True`                |
+| `s.startswith(x)`    | Checks if starts with x                   | `"hello".startswith("he")` → `True`       |
+| `s.endswith(x)`      | Checks if ends with x                     | `"hello".endswith("lo")` → `True`         |
 
 ---
 
-## **TUPLE METHODS**
+## 🔢 **INTEGER (int) METHODS**
 
-Tuples are like lists, but they **cannot be changed** (they’re read-only).
+Integers are numbers without decimals.
+Integers don’t have many “methods,” but you can use **built-in functions** on them:
 
-| **Method** | **Definition / What it does**               |
-| ---------- | ------------------------------------------- |
-| `count()`  | Counts how many times a value appears.      |
-| `index()`  | Finds the position of a value in the tuple. |
-
----
-
-## **SET METHODS**
-
-Sets are unordered collections that automatically remove duplicates.
-
-| **Method**       | **Definition / What it does**                          |
-| ---------------- | ------------------------------------------------------ |
-| `union()`        | Combines two sets (no duplicates).                     |
-| `intersection()` | Returns only items that appear in **both** sets.       |
-| `difference()`   | Returns items that are in one set but not the other.   |
-| `add()`          | Adds an item to the set.                               |
-| `discard()`      | Removes an item if it exists (no error if it doesn’t). |
+| Function/Method | Description                   | Example                   |
+| --------------- | ----------------------------- | ------------------------- |
+| `abs(x)`        | Absolute value                | `abs(-5)` → `5`           |
+| `pow(x, y)`     | Power of x^y                  | `pow(2, 3)` → `8`         |
+| `divmod(a, b)`  | Returns (quotient, remainder) | `divmod(9, 2)` → `(4, 1)` |
+| `int(x)`        | Converts to integer           | `int("12")` → `12`        |
+| `bit_length()`  | Number of bits to represent   | `(10).bit_length()` → `4` |
 
 ---
 
-## **DICTIONARY METHODS**
+## 🧮 **LIST METHODS**
 
-Dictionaries store data in **key–value pairs** (like a student’s name and age).
+Lists are mutable (changeable) sequences.
+Example: `lst = [1, 2, 3]`
 
-| **Method** | **Definition / What it does**                           |
-| ---------- | ------------------------------------------------------- |
-| `keys()`   | Returns all keys in the dictionary.                     |
-| `values()` | Returns all values in the dictionary.                   |
-| `items()`  | Returns all key–value pairs as tuples.                  |
-| `update()` | Updates or adds new key–value pairs.                    |
-| `pop(key)` | Removes a key–value pair by key.                        |
-| `get(key)` | Returns the value of a key (no error if missing).       |
-| `clear()`  | Removes all items from the dictionary (makes it empty). |
+| Method             | Description                 | Example                       |
+| ------------------ | --------------------------- | ----------------------------- |
+| `append(x)`        | Adds an element at end      | `lst.append(4)` → `[1,2,3,4]` |
+| `extend(iterable)` | Adds multiple elements      | `lst.extend([5,6])`           |
+| `insert(i, x)`     | Adds at index i             | `lst.insert(1, 99)`           |
+| `remove(x)`        | Removes first occurrence    | `lst.remove(2)`               |
+| `pop(i)`           | Removes and returns element | `lst.pop(0)` → removes first  |
+| `clear()`          | Empties list                | `lst.clear()`                 |
+| `index(x)`         | Returns index of x          | `lst.index(3)`                |
+| `count(x)`         | Counts x                    | `[1,1,2].count(1)` → `2`      |
+| `sort()`           | Sorts list ascending        | `lst.sort()`                  |
+| `reverse()`        | Reverses list               | `lst.reverse()`               |
+| `copy()`           | Shallow copy                | `b = lst.copy()`              |
+
+---
+
+## 🔗 **TUPLE METHODS**
+
+Tuples are like lists but **immutable** (cannot be changed).
+Example: `t = (1, 2, 3)`
+
+| Method     | Description        | Example                  |
+| ---------- | ------------------ | ------------------------ |
+| `count(x)` | Counts x in tuple  | `(1,1,2).count(1)` → `2` |
+| `index(x)` | Returns index of x | `(1,2,3).index(2)` → `1` |
+
+---
+
+## 🧩 **SET METHODS**
+
+Sets are unordered collections with no duplicates.
+Example: `s = {1, 2, 3}`
+
+| Method                    | Description                    | Example                         |
+| ------------------------- | ------------------------------ | ------------------------------- |
+| `add(x)`                  | Adds element                   | `s.add(4)`                      |
+| `remove(x)`               | Removes x (error if not found) | `s.remove(2)`                   |
+| `discard(x)`              | Removes x (no error)           | `s.discard(10)`                 |
+| `pop()`                   | Removes random element         | `s.pop()`                       |
+| `clear()`                 | Removes all                    | `s.clear()`                     |
+| `union(t)`                | Combines sets                  | `s.union({4,5})`                |
+| `intersection(t)`         | Common elements                | `s.intersection({2,3,4})`       |
+| `difference(t)`           | Elements not in t              | `s.difference({2,4})`           |
+| `symmetric_difference(t)` | Elements in one set only       | `s.symmetric_difference({2,4})` |
+| `issubset(t)`             | True if subset                 | `{1,2}.issubset({1,2,3})`       |
+| `issuperset(t)`           | True if superset               | `{1,2,3}.issuperset({1,2})`     |
+
+---
+
+## 🗂️ **DICTIONARY METHODS**
+
+Dictionaries store **key-value pairs**.
+Example: `d = {"a": 1, "b": 2}`
+
+| Method             | Description                               | Example                |
+| ------------------ | ----------------------------------------- | ---------------------- |
+| `get(key)`         | Returns value or None                     | `d.get("a")` → `1`     |
+| `keys()`           | Returns all keys                          | `d.keys()`             |
+| `values()`         | Returns all values                        | `d.values()`           |
+| `items()`          | Returns (key, value) pairs                | `d.items()`            |
+| `update(dict2)`    | Adds or updates entries                   | `d.update({"c":3})`    |
+| `pop(key)`         | Removes key and returns value             | `d.pop("a")`           |
+| `popitem()`        | Removes last inserted pair                | `d.popitem()`          |
+| `clear()`          | Removes all                               | `d.clear()`            |
+| `copy()`           | Shallow copy                              | `new_d = d.copy()`     |
+| `setdefault(k, v)` | Returns value if key exists; else adds it | `d.setdefault("x", 5)` |
 
 ---
