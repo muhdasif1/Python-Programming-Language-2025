@@ -248,21 +248,19 @@ Example: `t = (1, 2, 3)`
 ---
 
 ## **DICTIONARY METHODS**
-
-Dictionaries store **key-value pairs**.
-Example: `d = {"a": 1, "b": 2}`
-
-| Method             | Description                               | Example                |
-| ------------------ | ----------------------------------------- | ---------------------- |
-| `get(key)`         | Returns value or None                     | `d.get("a")` → `1`     |
-| `keys()`           | Returns all keys                          | `d.keys()`             |
-| `values()`         | Returns all values                        | `d.values()`           |
-| `items()`          | Returns (key, value) pairs                | `d.items()`            |
-| `update(dict2)`    | Adds or updates entries                   | `d.update({"c":3})`    |
-| `pop(key)`         | Removes key and returns value             | `d.pop("a")`           |
-| `popitem()`        | Removes last inserted pair                | `d.popitem()`          |
-| `clear()`          | Removes all                               | `d.clear()`            |
-| `copy()`           | Shallow copy                              | `new_d = d.copy()`     |
-| `setdefault(k, v)` | Returns value if key exists; else adds it | `d.setdefault("x", 5)` |
+| Method                 | Description                               | Example                                         |
+| ---------------------- | ----------------------------------------- | ----------------------------------------------- |
+| clear()                | Removes all items from dictionary         | `{"a":1}.clear()` → `{}`                        |
+| copy()                 | Returns a shallow copy                    | `{"a":1}.copy()` → `{"a":1}`                    |
+| fromkeys(seq, value)   | Creates dict from keys with same value    | `dict.fromkeys(["a","b"], 0)` → `{"a":0,"b":0}` |
+| get(key, default)      | Returns value or default if key not found | `d.get("x","none")` → `"none"`                  |
+| items()                | Returns key-value pairs as tuples         | `{"a":1}.items()` → `dict_items([("a",1)])`     |
+| keys()                 | Returns all keys                          | `{"a":1}.keys()` → `dict_keys(["a"])`           |
+| pop(key)               | Removes key and returns its value         | `{"a":1}.pop("a")` → `1`                        |
+| popitem()              | Removes and returns last key-value pair   | `{"a":1}.popitem()` → `("a",1)`                 |
+| setdefault(key, value) | Adds key with value if not present        | `d.setdefault("a", 0)`                          |
+| update(other)          | Updates dictionary with another dict      | `d.update({"b":2})`                             |
+| values()               | Returns all values                        | `{"a":1,"b":2}.values()` → `dict_values([1,2])` |
 
 ---
+
