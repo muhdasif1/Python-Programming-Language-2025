@@ -5,6 +5,8 @@ print("STRING METHODS")
 text = "  hello world  "
 print("upper():", text.upper())
 print("lower():", text.lower())
+print("capitalize():", text.capitalize())
+print("title():", text.title())
 print("strip():", text.strip())
 print("replace():", text.replace("world", "Python"))
 print("split():", text.split())
