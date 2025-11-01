@@ -1,6 +1,8 @@
 # ============================================================
 # STRING METHODS
 # ============================================================
+# 🐍 Python String Methods Demo
+# Author: Muhammad Asif
 
 text = "hello world"
 num_text = "12345"
@@ -57,10 +59,25 @@ print("44. title():", "hello world".title())
 print("45. translate():", "abc".translate(str.maketrans("a", "1")))
 print("46. upper():", "hello".upper())
 print("47. zfill():", "42".zfill(5))
-print()
+
+
 # ============================================================
 # INTEGER METHODS / FUNCTIONS
 # ============================================================
+print("\n=== INTEGER METHODS ===")
+x = -5
+y = 10
+print(abs(x))              # 5
+print(pow(2, 3))           # 8
+print(divmod(9, 2))        # (4, 1)
+print(int("42"))           # 42
+print((10).bit_length())   # 4
+
+# ============================================================
+# LIST METHODS
+# ============================================================
+# 🐍 Python List Methods Demo
+# Author: Muhammad Asif
 
 # Sample list
 fruits = ["apple", "banana", "cherry"]
@@ -70,54 +87,56 @@ print("Original lists:")
 print("fruits =", fruits)
 print("numbers =", numbers)
 print("-" * 50)
+
+# 1. append() - Adds an item to the end
 fruits.append("orange")
 print("1. append():", fruits)
+
+# 2. clear() - Removes all items
 temp = fruits.copy()
 temp.clear()
 print("2. clear():", temp)
+
+# 3. copy() - Returns a shallow copy
 new_list = fruits.copy()
 print("3. copy():", new_list)
+
+# 4. count() - Counts occurrences of an element
 print("4. count():", fruits.count("banana"))
+
+# 5. extend() - Adds elements of another list
 fruits.extend(["mango", "grape"])
 print("5. extend():", fruits)
+
+# 6. index() - Returns the first index of a value
 print("6. index():", fruits.index("banana"))
+
+# 7. insert() - Inserts at a specific position
 fruits.insert(1, "kiwi")
 print("7. insert():", fruits)
+
+# 8. pop() - Removes and returns item by index (default last)
 removed_item = fruits.pop()
 print("8. pop():", fruits, "→ removed:", removed_item)
+
+# 9. remove() - Removes first occurrence of a value
 fruits.remove("banana")
 print("9. remove():", fruits)
+
+# 10. reverse() - Reverses the list in place
 fruits.reverse()
 print("10. reverse():", fruits)
+
+# 11. sort() - Sorts the list (ascending by default)
 numbers.sort()
 print("11. sort():", numbers)
+
+# Optional: sort descending
 numbers.sort(reverse=True)
 print("   sort(reverse=True):", numbers)
 
-# ============================================================
-# LIST METHODS
-# ============================================================
-print("\n=== LIST METHODS ===")
-lst = [1, 2, 3]
-lst.append(4)
-print(lst)                 # [1, 2, 3, 4]
-lst.extend([5, 6])
-print(lst)                 # [1, 2, 3, 4, 5, 6]
-lst.insert(1, 99)
-print(lst)                 # [1, 99, 2, 3, 4, 5, 6]
-lst.remove(99)
-print(lst)                 # [1, 2, 3, 4, 5, 6]
-print(lst.pop())           # removes and returns 6
-print(lst.index(3))        # 2
-print(lst.count(2))        # 1
-lst.sort()
-print(lst)                 # [1, 2, 3, 4, 5]
-lst.reverse()
-print(lst)                 # [5, 4, 3, 2, 1]
-copy_list = lst.copy()
-print(copy_list)
-lst.clear()
-print(lst)                 # []
+print("\n✅ All list methods demonstrated successfully!")
+
 
 # ============================================================
 # TUPLE METHODS
