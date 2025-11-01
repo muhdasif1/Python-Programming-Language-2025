@@ -1,85 +1,103 @@
-# -------------------------------
+# ============================================================
 # STRING METHODS
-# -------------------------------
-print("STRING METHODS")
-text = "  hello world  "
-print("upper():", text.upper())
-print("lower():", text.lower())
-print("capitalize():", text.capitalize())
-print("title():", text.title())
-print("strip():", text.strip())
-print("replace():", text.replace("world", "Python"))
-print("split():", text.split())
-print("join():", "-".join(["Python", "is", "fun"]))
-print("find():", text.find("world"))
-print("count():", text.count("l"))
-print("startswith():", text.startswith(" "))
-print("endswith():", text.endswith(" "))
-print()
+# ============================================================
+print("=== STRING METHODS ===")
+s = " Hello World "
+print(s.upper())           # HELLO WORLD
+print(s.lower())           # hello world
+print(s.title())           # Hello World
+print(s.capitalize())      #  hello world
+print(s.strip())           # Hello World
+print(s.replace("World", "Python"))  #  Hello Python
+print(s.split())           # ['Hello', 'World']
+print("-".join(["a", "b", "c"]))     # a-b-c
+print(s.find("World"))     # index of "World"
+print(s.count("l"))        # number of 'l'
+print("abc".isalpha())     # True
+print("123".isdigit())     # True
+print(s.startswith(" H"))  # True
+print(s.endswith("d "))    # True
 
-# -------------------------------
-# INTEGER METHODS (int)
-# -------------------------------
-print("INTEGER EXAMPLES")
-num = 25
-print("bit_length():", num.bit_length())  # Returns bits needed to represent number
-print("to_bytes():", num.to_bytes(2, 'big'))  # Converts int to bytes
-print("from_bytes():", int.from_bytes(b'\x00\x19', 'big'))  # Converts bytes to int
-print()
+# ============================================================
+# INTEGER METHODS / FUNCTIONS
+# ============================================================
+print("\n=== INTEGER METHODS ===")
+x = -5
+y = 10
+print(abs(x))              # 5
+print(pow(2, 3))           # 8
+print(divmod(9, 2))        # (4, 1)
+print(int("42"))           # 42
+print((10).bit_length())   # 4
 
-# -------------------------------
+# ============================================================
 # LIST METHODS
-# -------------------------------
-print("LIST METHODS")
-fruits = ["apple", "banana", "cherry"]
-fruits.append("orange")
-print("append():", fruits)
-fruits.insert(1, "grape")
-print("insert():", fruits)
-fruits.remove("banana")
-print("remove():", fruits)
-fruits.sort()
-print("sort():", fruits)
-fruits.reverse()
-print("reverse():", fruits)
-print("count():", fruits.count("apple"))
-print("index():", fruits.index("apple"))
-print()
+# ============================================================
+print("\n=== LIST METHODS ===")
+lst = [1, 2, 3]
+lst.append(4)
+print(lst)                 # [1, 2, 3, 4]
+lst.extend([5, 6])
+print(lst)                 # [1, 2, 3, 4, 5, 6]
+lst.insert(1, 99)
+print(lst)                 # [1, 99, 2, 3, 4, 5, 6]
+lst.remove(99)
+print(lst)                 # [1, 2, 3, 4, 5, 6]
+print(lst.pop())           # removes and returns 6
+print(lst.index(3))        # 2
+print(lst.count(2))        # 1
+lst.sort()
+print(lst)                 # [1, 2, 3, 4, 5]
+lst.reverse()
+print(lst)                 # [5, 4, 3, 2, 1]
+copy_list = lst.copy()
+print(copy_list)
+lst.clear()
+print(lst)                 # []
 
-# -------------------------------
+# ============================================================
 # TUPLE METHODS
-# -------------------------------
-print("TUPLE METHODS")
-numbers = (1, 2, 2, 3)
-print("count():", numbers.count(2))
-print("index():", numbers.index(3))
-print()
+# ============================================================
+print("\n=== TUPLE METHODS ===")
+t = (1, 2, 2, 3)
+print(t.count(2))          # 2
+print(t.index(3))          # 3
 
-# -------------------------------
+# ============================================================
 # SET METHODS
-# -------------------------------
-print("SET METHODS")
-s1 = {1, 2, 3}
-s2 = {3, 4, 5}
-print("union():", s1.union(s2))
-print("intersection():", s1.intersection(s2))
-print("difference():", s1.difference(s2))
-print("add():", s1 | {6})
-print("discard():", s1 - {2})
-print()
+# ============================================================
+print("\n=== SET METHODS ===")
+s = {1, 2, 3}
+s.add(4)
+print(s)                   # {1, 2, 3, 4}
+s.discard(2)
+print(s)                   # {1, 3, 4}
+s2 = {3, 4, 5, 6}
+print(s.union(s2))         # {1, 3, 4, 5, 6}
+print(s.intersection(s2))  # {3, 4}
+print(s.difference(s2))    # {1}
+print(s.symmetric_difference(s2))  # {1, 5, 6}
+print(s.issubset({1, 3, 4, 5}))    # True
+print(s.issuperset({3}))           # True
+s.clear()
+print(s)                   # set()
 
-# -------------------------------
+# ============================================================
 # DICTIONARY METHODS
-# -------------------------------
-print("DICTIONARY METHODS")
-student = {"name": "Ali", "age": 15, "class": "10th"}
-print("keys():", student.keys())
-print("values():", student.values())
-print("items():", student.items())
-student.update({"age": 16})
-print("update():", student)
-student.pop("class")
-print("pop():", student)
-print("get():", student.get("name"))
-print("clear():", student.clear(), student)
-print()
+# ============================================================
+print("\n=== DICTIONARY METHODS ===")
+d = {"a": 1, "b": 2, "c": 3}
+print(d.get("a"))          # 1
+print(d.keys())            # dict_keys(['a', 'b', 'c'])
+print(d.values())          # dict_values([1, 2, 3])
+print(d.items())           # dict_items([('a', 1), ('b', 2), ('c', 3)])
+d.update({"d": 4})
+print(d)                   # {'a':1, 'b':2, 'c':3, 'd':4}
+print(d.pop("b"))          # removes and returns 2
+print(d.popitem())         # removes last item
+d.setdefault("x", 99)
+print(d)                   # {'a': 1, 'c': 3, 'x': 99}
+copy_dict = d.copy()
+print(copy_dict)
+d.clear()
+print(d)                   # {}
