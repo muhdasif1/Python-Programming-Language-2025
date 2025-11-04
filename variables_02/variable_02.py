@@ -4,7 +4,7 @@ def variables():
     print("=== Python Variables ===\n")
 
     # 1. Basic assignment
-    name = "Alice"
+    name = "Asif"
     age = 28
     height = 5.6
     is_student = False
