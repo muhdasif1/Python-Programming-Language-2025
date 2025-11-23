@@ -21,7 +21,8 @@ total_staff: int = 4
 total_absent: int = 15
 milk_per_person: int = 250
 
-print(f"""Total Students: {total_students} 
+print(f"""
+      Total Students: {total_students} 
       \nFaculty Members: {faculty_members} 
       \nTotal Staff: {total_staff} 
       \nTotal Absent: {total_absent} 
