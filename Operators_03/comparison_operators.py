@@ -1,3 +1,16 @@
+print("\nComparison Operators:\n")
+
+a: int = 10
+b: int = 20
+
+print(f"{a} > {b}  --> {a > b}")
+print(f"{a} < {b}  --> {a < b}")
+print(f"{a} == {b} --> {a == b}")
+print(f"{a} != {b} --> {a != b}")
+print(f"{a} >= {b} --> {a >= b}")
+print(f"{a} <= {b} --> {a <= b}")
+print("--------------------------------------------------")
+
 print("********** Comparison Operators ************")
 a : int = 10
 b : int = 20
