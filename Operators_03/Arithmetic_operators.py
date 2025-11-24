@@ -100,33 +100,3 @@ print()
 print("End of Arithmetic Operations Demonstration")
 print("--------------------------------------------------")
 print()
-
-
-print("********** Bitwise Operators ************")
-p : int = 5      # Binary: 0101
-q : int = 3      # Binary: 0011
-print("p & q (AND) :", p & q)   # Binary: 0001 -> Decimal: 1
-print("p | q (OR)  :", p | q)   # Binary:
-print("p ^ q (XOR) :", p ^ q)   # Binary: 0110 -> Decimal: 6
-print("~p (NOT)    :", ~p)      # Binary: 1010
-print("p << 1 (Left Shift) :", p << 1)  # Binary: 1010 -> Decimal: 10
-print("p >> 1 (Right Shift):", p >> 1)  # Binary
-print("--------------------------------------------------")
-print()
-
-print("********** Membership Operators ************")
-fruits : list = ["apple", "banana", "cherry"]
-print("'banana' in fruits :", "banana" in fruits)
-print("'grape' not in fruits :", "grape" not in fruits)
-print("--------------------------------------------------")
-print()
-
-print("********** Identity Operators ************")
-m : list = [1, 2, 3]
-n : list = m
-o : list = [1, 2, 3]
-print("m is n :", m is n)
-print("m is o :", m is o)
-print("m is not o :", m is not o)
-print("--------------------------------------------------")
-print()
