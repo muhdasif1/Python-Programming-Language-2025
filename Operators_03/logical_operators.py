@@ -40,27 +40,6 @@ print("not(y > 15)         :", not(y > 15))
 print("--------------------------------------------------")
 print()
 
-
-print("********** Logical Operators with Membership ************")
-fruits : list = ["apple", "banana", "cherry"]
-is_apple_present : bool = "apple" in fruits and len(fruits) > 2
-is_grape_absent : bool = "grape" not in fruits or len(fruits) < 2
-print("Is apple present and more than 2 fruits?:", is_apple_present)
-print("Is grape absent or less than 2 fruits?:", is_grape_absent)
-print("--------------------------------------------------")
-print()
-
-print("********** Logical Operators with Identity ************")
-list1 : list = [1, 2, 3]
-list2 : list = list1
-list3 : list = [1, 2, 3]
-is_list1_list2_same : bool = list1 is list2 and len(list1) == len(list2)
-is_list1_list3_different : bool = list1 is not list3 or len(list1) != len(list3)
-print("Is list1 and list2 the same object and same length?:", is_list1_list2_same)
-print("Is list1 and list3 different objects or different lengths?:", is_list1_list3_different)
-print("--------------------------------------------------")
-print()
-
 print("********** Logical Operators with Mixed Types ************")
 num : int = 10
 text : str = "10"
