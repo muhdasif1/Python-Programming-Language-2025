@@ -46,7 +46,7 @@ Each example updates the variable and prints the new value.
 
 ---
 
-## 📌 3. Bitwise Operators
+## 3. Bitwise Operators
 
 Bitwise operators work on the binary level:
 
