@@ -102,17 +102,6 @@ print("--------------------------------------------------")
 print()
 
 
-
-print("********** Logical Operators ************")
-x : int = 10
-y : int = 20
-z : int = 30
-print("x < y and y < z :", x < y and y < z)
-print("x < y or y > z :", x < y or y > z)
-print("not(x < y) :", not(x < y))
-print("--------------------------------------------------")
-print()
-
 print("********** Bitwise Operators ************")
 p : int = 5      # Binary: 0101
 q : int = 3      # Binary: 0011
