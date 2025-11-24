@@ -40,15 +40,6 @@ print("not(y > 15)         :", not(y > 15))
 print("--------------------------------------------------")
 print()
 
-print("********** Logical Operators in Conditional Statements ************")
-age : int = 25
-has_id : bool = True
-if age >= 18 and has_id:    
-    print("Eligible to vote.")
-else:
-    print("Not eligible to vote.")      
-print("--------------------------------------------------")
-print()
 
 print("********** Logical Operators with Membership ************")
 fruits : list = ["apple", "banana", "cherry"]
