@@ -12,6 +12,7 @@ print(f"Floor Division:  {num1} // {num2} = {num1 // num2}")
 print(f"Modulus:         {num1} % {num2} = {num1 % num2}")
 print(f"Exponentiation:  {num1} ** {num2} = {num1 ** num2}")
 print("--------------------------------------------------")
+
 print("********** Arithmetic Operators ************")
 number1: int = 10
 number2: int = 5
