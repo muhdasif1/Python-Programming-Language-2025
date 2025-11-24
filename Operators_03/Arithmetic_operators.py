@@ -1,4 +1,18 @@
-# Variables
+# 1. Arithmetic Operators
+print("Arithmetic Operators:\n")
+
+num1: int = 15
+num2: int = 4
+
+print(f"Addition:        {num1} + {num2} = {num1 + num2}")
+print(f"Subtraction:     {num1} - {num2} = {num1 - num2}")
+print(f"Multiplication:  {num1} * {num2} = {num1 * num2}")
+print(f"Division:        {num1} / {num2} = {num1 / num2}")
+print(f"Floor Division:  {num1} // {num2} = {num1 // num2}")
+print(f"Modulus:         {num1} % {num2} = {num1 % num2}")
+print(f"Exponentiation:  {num1} ** {num2} = {num1 ** num2}")
+print("--------------------------------------------------")
+print("********** Arithmetic Operators ************")
 number1: int = 10
 number2: int = 5
 
@@ -88,63 +102,6 @@ print("--------------------------------------------------")
 print()
 
 
-print("********** Assignment Operators ************")
-number1 : int = 44
-number1+=6
-print("Add and assign += : ", number1)
-
-number2 : int = 50
-number2 -=10
-print("Subtract and assign -= : ",number2)
-number3 : int = 60
-number3 *=2
-print("Multiply and assign *= : ",number3)
-
-number4 : int = 80
-number4 /=4
-print("Divide and assign /= : ",number4)
-
-number5 : int = 60
-number5 %=5
-print("Modulus and assign %= : ",number5)
-
-number6 :int = 80
-number6 **=2
-print("Exponent and assign **= : ",number6)
-
-number7 : int = 90
-number7 //=3
-print("Floor division and assign //= : ",number7)
-print("--------------------------------------------------")
-print()
-
-
-print("********** Comparison Operators ************")
-a : int = 10
-b : int = 20
-print("a == b : ",a==b)
-print("a != b : ",a!=b)
-print("a > b : ",a>b)           
-print("a < b : ",a<b)
-print("a >= b : ",a>=b)
-print("a <= b : ",a<=b)
-print("--------------------------------------------------")
-print()
-
-print("********** Comparison Operators ************")
-name1 : str = "Muhammad Asif"
-name2 : str = "Muhammad Asif"
-print("name1 is name2 :", name1 == name2)
-print("name1 is not name2 :", name1 != name2)
-
-age : int = 25
-age2 : int = 30
-print("age 25 is age2 30 :",age > age2)
-print("age 25 is not age2 30 :",age < age2)
-print("age 25 is age2 30 :",age >= age2)
-print("age 25 is not age2 30 :",age <= age2)
-print("--------------------------------------------------")
-print()
 
 print("********** Logical Operators ************")
 x : int = 10
