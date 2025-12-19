@@ -311,3 +311,119 @@ x = 5  # Number of students in class
 
 ---
 
+# **Python Variables**
+
+A **variable** in Python is used to **store data** in memory.
+You can think of a variable as a **container** that holds a value which can be used and changed later in a program.
+
+---
+
+# **Creating Variables**
+
+In Python, you **do not need to declare a variable type**.
+A variable is created when you assign a value to it.
+
+```python
+name = "Asif"
+age = 20
+marks = 85.5
+```
+
+---
+
+# **Rules for Naming Variables**
+
+* Must start with a **letter (a–z, A–Z)** or **underscore (_)**
+* Cannot start with a number
+* Can contain letters, numbers, and underscores
+* Variable names are **case-sensitive**
+
+✅ Valid:
+
+```python
+student_name
+_age
+totalMarks
+```
+
+❌ Invalid:
+
+```python
+1name
+total-marks
+class
+```
+
+---
+
+# **Types of Variables (Based on Values)**
+
+```python
+name = "Ali"        # String
+age = 18            # Integer
+height = 5.7        # Float
+is_student = True   # Boolean
+```
+
+---
+
+# **Changing Variable Values**
+
+The value of a variable can be changed anytime.
+
+```python
+age = 18
+age = 19
+print(age)
+```
+
+---
+
+# **Multiple Variable Assignment**
+
+```python
+x, y, z = 10, 20, 30
+```
+
+Assigning the same value to multiple variables:
+
+```python
+a = b = c = 100
+```
+
+---
+
+# **Using Variables in Output**
+
+```python
+name = "Asif"
+marks = 90
+print("Name:", name)
+print("Marks:", marks)
+```
+
+Using f-strings:
+
+```python
+print(f"Name: {name}, Marks: {marks}")
+```
+
+---
+
+# **Why Variables Are Important**
+
+* Store user input
+* Perform calculations
+* Reuse data
+* Make programs flexible and dynamic
+
+---
+
+# **Summary**
+
+* Variables store data
+* No data type declaration needed
+* Values can be changed
+* Python decides the data type automatically
+
+
