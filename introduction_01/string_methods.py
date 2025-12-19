@@ -62,7 +62,7 @@ print("47. zfill():", "42".zfill(5))
 # ============================================================
 # INTEGER METHODS / FUNCTIONS
 # ============================================================
-# 🔢 Python Numeric Methods and Attributes Demonstration
+# Python Numeric Methods and Attributes Demonstration
 # Works for both int and float types
 
 # Integer examples
