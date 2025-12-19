@@ -410,7 +410,7 @@ print(f"Name: {name}, Marks: {marks}")
 
 ---
 
-## **Why Variables Are Important**
+# **Why Variables Are Important**
 
 * Store user input
 * Perform calculations
