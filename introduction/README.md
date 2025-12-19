@@ -46,7 +46,7 @@ Python is one of the most preferred programming languages because:
 
 ---
 
-## **Python Input and Output**
+# **Python Input and Output**
 
 In Python, **input** and **output** are used to interact with the user.
 
@@ -55,7 +55,7 @@ In Python, **input** and **output** are used to interact with the user.
 
 ---
 
-## **Python Output**
+# **Python Output**
 
 Python uses the **`print()`** function to display output on the screen.
 
@@ -104,7 +104,7 @@ print(f"My name is {name} and I am {age} years old.")
 
 ---
 
-## **Python Input**
+# **Python Input**
 
 Python uses the **`input()`** function to take input from the user.
 
@@ -142,7 +142,7 @@ print("Price is:", price)
 
 ---
 
-## **Taking Multiple Inputs**
+# **Taking Multiple Inputs**
 
 ```python
 x = int(input("Enter first number: "))
@@ -152,7 +152,7 @@ print("Sum =", x + y)
 
 ---
 
-## **Input and Output in One Program**
+# **Input and Output in One Program**
 
 ```python
 name = input("Enter your name: ")
@@ -164,9 +164,9 @@ print(f"Marks: {marks}")
 
 ---
 
-## **Common Mistakes**
+# **Common Mistakes**
 
-❌ Forgetting type conversion:
+Forgetting type conversion:
 
 ```python
 x = input("Enter number: ")
@@ -174,7 +174,7 @@ y = input("Enter number: ")
 print(x + y)   # Wrong: adds strings
 ```
 
-✅ Correct way:
+ Correct way:
 
 ```python
 x = int(input("Enter number: "))
@@ -184,7 +184,7 @@ print(x + y)
 
 ---
 
-## **Summary**
+# **Summary**
 
 | Function  | Purpose               |
 | --------- | --------------------- |
@@ -192,6 +192,122 @@ print(x + y)
 | `print()` | Displays output       |
 | `int()`   | Converts to integer   |
 | `float()` | Converts to decimal   |
+
+---
+
+# **Python Comments**
+
+**Comments** in Python are used to explain code.
+They help programmers understand what the code does and make programs easier to read and maintain.
+
+👉 Comments are **ignored by Python** and do not affect program execution.
+
+---
+
+## Why Use Comments?
+
+* To explain **logic and purpose** of code
+* To make code **readable**
+* To help **others (and yourself)** understand the code later
+* To temporarily **disable code** during testing
+
+---
+
+## Types of Comments in Python
+
+Python mainly supports **two types of comments**:
+
+---
+
+## 1. Single-Line Comments
+
+Single-line comments start with the **`#`** symbol.
+
+### Example:
+
+```python
+# This is a single-line comment
+print("Hello Python")  # This comment explains the line
+```
+
+---
+
+## 2. Multi-Line Comments
+
+Python does not have a special syntax for multi-line comments.
+However, they are commonly written using:
+
+### Method 1: Multiple `#`
+
+```python
+# This is a multi-line comment
+# It is written using
+# multiple hash symbols
+```
+
+### Method 2: Triple Quotes (Docstrings)
+
+Triple quotes are often used for **documentation**.
+
+```python
+"""
+This is a multi-line comment.
+It is mostly used to explain
+functions, classes, or modules.
+"""
+print("Python Comments")
+```
+
+⚠️ Note: Triple-quoted strings are technically **docstrings**, not comments, but they are often used like comments.
+
+---
+
+## Comments in Functions
+
+```python
+def add(a, b):
+    # This function adds two numbers
+    return a + b
+```
+
+---
+
+## Commenting Out Code (Debugging)
+
+```python
+print("This line runs")
+# print("This line is disabled")
+```
+
+---
+
+## Good Commenting Practices
+
+✅ Write **clear and meaningful** comments
+✅ Explain **why**, not just **what**
+❌ Avoid obvious comments
+
+### Bad Example:
+
+```python
+x = 5  # Assign 5 to x
+```
+
+### Good Example:
+
+```python
+x = 5  # Number of students in class
+```
+
+---
+
+## Summary
+
+| Type        | Syntax           | Use                |
+| ----------- | ---------------- | ------------------ |
+| Single-line | `#`              | Short explanations |
+| Multi-line  | `#` or `""" """` | Documentation      |
+| Inline      | After code       | Quick notes        |
 
 ---
 
