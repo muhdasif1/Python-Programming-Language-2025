@@ -426,4 +426,199 @@ print(f"Name: {name}, Marks: {marks}")
 * Values can be changed
 * Python decides the data type automatically
 
+---
+
+# **Python Data Types**
+
+In programming, a **data type** defines the kind of value a variable can store.
+Different data types allow different operations to be performed on the data.
+
+Python has many **built-in data types**, and you do **not need to declare them explicitly**.
+Python automatically assigns the data type based on the value.
+
+---
+
+# **Built-in Data Types in Python**
+
+Python provides the following built-in data types, grouped into categories:
+
+---
+
+## 1. Text Type
+
+### `str` (String)
+
+Used to store text data.
+
+```python
+name = "Python"
+```
+
+---
+
+## 2. Numeric Types
+
+### `int` (Integer)
+
+Whole numbers without decimals.
+
+```python
+x = 10
+```
+
+### `float` (Floating-point)
+
+Numbers with decimals.
+
+```python
+y = 3.14
+```
+
+### `complex`
+
+Numbers with a real and imaginary part.
+
+```python
+z = 2 + 3j
+```
+
+---
+
+## 3. Sequence Types
+
+### `list`
+
+Ordered, changeable collection.
+
+```python
+fruits = ["apple", "banana", "mango"]
+```
+
+### `tuple`
+
+Ordered, unchangeable collection.
+
+```python
+colors = ("red", "green", "blue")
+```
+
+### `range`
+
+Sequence of numbers.
+
+```python
+numbers = range(1, 5)
+```
+
+---
+
+## 4. Mapping Type
+
+### `dict` (Dictionary)
+
+Stores data in key-value pairs.
+
+```python
+student = {"name": "Asif", "age": 20}
+```
+
+---
+
+## 5. Set Types
+
+### `set`
+
+Unordered collection with no duplicates.
+
+```python
+unique_numbers = {1, 2, 3}
+```
+
+### `frozenset`
+
+Unchangeable set.
+
+```python
+fs = frozenset([1, 2, 3])
+```
+
+---
+
+## 6. Boolean Type
+
+### `bool`
+
+Represents `True` or `False`.
+
+```python
+is_active = True
+```
+
+---
+
+## 7. Binary Types
+
+### `bytes`
+
+Immutable sequence of bytes.
+
+```python
+b = bytes(5)
+```
+
+### `bytearray`
+
+Mutable sequence of bytes.
+
+```python
+ba = bytearray(5)
+```
+
+### `memoryview`
+
+Access memory of binary objects.
+
+```python
+mv = memoryview(bytes(5))
+```
+
+---
+
+## 8. None Type
+
+### `NoneType`
+
+Represents absence of a value.
+
+```python
+x = None
+```
+
+---
+
+# **Checking Data Type**
+
+You can check the data type using the `type()` function:
+
+```python
+x = 10
+print(type(x))
+```
+
+---
+
+# **Summary Table**
+
+| Category | Data Types                         |
+| -------- | ---------------------------------- |
+| Text     | `str`                              |
+| Numeric  | `int`, `float`, `complex`          |
+| Sequence | `list`, `tuple`, `range`           |
+| Mapping  | `dict`                             |
+| Set      | `set`, `frozenset`                 |
+| Boolean  | `bool`                             |
+| Binary   | `bytes`, `bytearray`, `memoryview` |
+| None     | `NoneType`                         |
+
+---
 
