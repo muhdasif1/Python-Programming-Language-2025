@@ -3,12 +3,12 @@
 # Used to explain code
 
 """
-This is a multi-line comment
-It can span multiple lines
-Used for documentation or explanation
+This is a multi-line string (docstring).
+It can span multiple lines.
+It is commonly used for documentation.
 """
 
-''' 
-This is a single-line comment
-python ignores this line. 
+'''
+This is also a multi-line string.
+It behaves the same way as triple double quotes.
 '''
