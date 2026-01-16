@@ -1,9 +1,9 @@
-# Variable declaration and assignment
-name = "Asif"
-age = 20
-marks = 85.5
-is_student = True
 
+# Variable declaration and assignment
+name: str = "Asif"
+age: int = 20
+marks: float = 85.5
+is_student: bool = True
 # Printing variables
 print(name)
 print(age)
