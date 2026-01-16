@@ -23,12 +23,12 @@ marks = float(input("Enter marks: "))
 print(f"Name: {name}, Marks: {marks}")
 
 # Basic Arithmetic Operations
-x = 10
-y = 5
-print("Addition:", x + y)
-print("Subtraction:", x - y)
-print("Multiplication:", x * y)
-print("Division:", x / y)
-print("Integer Division:", x // y)
-print("Modulus:", x % y)
-print("Exponentiation:", x ** y)
+number1: int = 10
+number2: int = 5
+print("Addition:", number1 + number2)
+print("Subtraction:", number1 - number2)
+print("Multiplication:", number1 * number2)
+print("Division:", number1 / number2)
+print("Integer Division:", number1 // number2)
+print("Modulus:", number1 % number2)
+print("Exponentiation:", number1 ** number2)
