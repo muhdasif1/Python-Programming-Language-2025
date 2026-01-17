@@ -294,59 +294,13 @@ email = data[2]
 | `\t` | Tab | `"Name:\tValue"` |
 | `\r` | Carriage return | `"Hello\rWorld"` |
 
-## 🤝 Contributing
 
-Contributions are welcome! If you'd like to add more examples or improve documentation:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -m 'Add some improvement'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👨‍💻 Author
 
 **Muhammad Asif**
-- Location: Karachi, Pakistan
+- Location: Peshawar, Pakistan
 - Focus: Python Programming Education
-
-## 🙏 Acknowledgments
-
-- Python Software Foundation for excellent documentation
-- The Python community for continuous support
-- All contributors who help improve this guide
-
-## 📞 Support
-
-If you have questions or need help:
-- Open an issue in the repository
-- Check existing issues for solutions
-- Review the code comments for detailed explanations
-
-## 🎯 Learning Objectives
-
-After completing this guide, you will be able to:
-
-✅ Understand Python basic syntax and structure  
-✅ Work with all Python data types confidently  
-✅ Manipulate strings using 40+ built-in methods  
-✅ Format output beautifully using f-strings  
-✅ Validate and process user input  
-✅ Handle text data professionally  
-✅ Apply best practices in Python programming  
-✅ Build real-world applications using string operations  
-
-## 🚦 Getting Help
-
-**Stuck on something?** 
-1. Read the detailed comments in each file
-2. Run the examples and experiment
-3. Check the practical use cases section
-4. Refer to the quick reference tables
 
 ---
 
