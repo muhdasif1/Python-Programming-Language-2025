@@ -1,17 +1,23 @@
-thislist = ["apple", "banana", "cherry"]
-print(thislist[1])
+# Accessing an item by index (positive indexing)
+this_list = ["apple", "banana", "cherry"]
+print(this_list[1])   # Output: banana
 
-thislist = ["apple", "banana", "cherry"]
-print(thislist[-1])
+# Accessing an item using negative indexing
+this_list = ["apple", "banana", "cherry"]
+print(this_list[-1])  # Output: cherry
 
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[2:5])
+# Accessing a range of items (index 2 to 4)
+this_list = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(this_list[2:5])  # Output: ['cherry', 'orange', 'kiwi']
 
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[:4])
+# Accessing items from the beginning to index 3
+this_list = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(this_list[:4])   # Output: ['apple', 'banana', 'cherry', 'orange']
 
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[2:])
+# Accessing items from index 2 to the end
+this_list = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(this_list[2:])   # Output: ['cherry', 'orange', 'kiwi', 'melon', 'mango']
 
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
-print(thislist[-4:-1])
+# Accessing items using negative range indexing
+this_list = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(this_list[-4:-1])  # Output: ['orange', 'kiwi', 'melon']
