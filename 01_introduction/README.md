@@ -621,4 +621,3 @@ print(type(x))
 | None     | `NoneType`                         |
 
 ---
-
