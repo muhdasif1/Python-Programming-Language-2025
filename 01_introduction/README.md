@@ -625,8 +625,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Muhammad Asif**
 - Location: Peshawar, Pakistan
-- Focus: Python Programming Education
-- Goal: Making Python accessible to everyone
 
 ## Learning Objectives
 
