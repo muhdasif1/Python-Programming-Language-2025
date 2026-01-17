@@ -1,23 +1,32 @@
-mylist = ["apple", "banana", "cherry"]
-print(mylist)
+# Creating and printing a list
+fruits = ["apple", "banana", "cherry"]
+print(fruits)
 
-thislist = ["apple", "banana", "cherry"]
-print(thislist)
+# Another list example
+this_list = ["apple", "banana", "cherry"]
+print(this_list)
 
-thislist = ["apple", "banana", "cherry", "apple", "cherry"]
-print(thislist)
+# List with duplicate values
+fruits_with_duplicates = ["apple", "banana", "cherry", "apple", "cherry"]
+print(fruits_with_duplicates)
 
-thislist = ["apple", "banana", "cherry"]
-print(len(thislist))
+# Finding the length of a list
+this_list2 = ["apple", "banana", "cherry"]
+print(len(this_list2))
 
-list1 = ["apple", "banana", "cherry"]
-list2 = [1, 5, 7, 9, 3]
-list3 = [True, False, False]
+# Lists with different data types
+string_list = ["apple", "banana", "cherry"]
+number_list = [1, 5, 7, 9, 3]
+boolean_list = [True, False, False]
 
-list1 = ["abc", 34, True, 40, "male"]
+# Mixed data type list
+mixed_list = ["abc", 34, True, 40, "male"]
+print(mixed_list)
 
-mylist = ["apple", "banana", "cherry"]
-print(type(mylist))
+# Checking the type of a list
+my_list = ["apple", "banana", "cherry"]
+print(type(my_list))
 
-thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
-print(thislist)
+# Creating a list using the list() constructor
+this_list3 = list(("apple", "banana", "cherry"))  # tuple converted to list
+print(this_list3)
