@@ -1,6 +1,6 @@
-# ---------------------------------------
+# --------------------------------------- #
 # Example 1: Change a specific item value
-# ---------------------------------------
+# --------------------------------------- #
 
 # Create a list of stationery items
 items = ["pen", "pencil", "eraser"]
@@ -18,9 +18,9 @@ print(items)
 # Final Output: ['pen', 'marker', 'eraser']
 
 
-# ---------------------------------------
+# --------------------------------------- #
 # Example 2: Change a range of item values
-# ---------------------------------------
+# --------------------------------------- #
 
 # Create a new list of stationery items
 items = ["pen", "pencil", "eraser", "notebook", "sharpener", "ruler"]
@@ -39,9 +39,9 @@ print(items)
 # ['pen', 'marker', 'highlighter', 'notebook', 'sharpener', 'ruler']
 
 
-# ---------------------------------------------------
+# --------------------------------------------------- #
 # Example 3: Replace one item with multiple new items
-# ---------------------------------------------------
+# --------------------------------------------------- #
 
 # Create another list of stationery items
 items = ["pen", "pencil", "eraser"]
@@ -58,4 +58,4 @@ print("List after replacing one item with multiple items:")
 print(items)
 # Final Output:
 # ['pen', 'marker', 'highlighter', 'eraser']
-# ---------------------------------------------------
+# --------------------------------------------------- #
