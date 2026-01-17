@@ -118,13 +118,6 @@ All built-in string methods with examples and use cases
 - Basic understanding of programming concepts (helpful but not required)
 - Text editor or IDE (VS Code, PyCharm, or any editor)
 
-### Installation
-
-1. **Clone the repository**:
-```bash
-git clone https://github.com/yourusername/python-basics-guide.git
-cd python-basics-guide
-```
 
 2. **Verify Python installation**:
 ```bash
@@ -136,23 +129,6 @@ python3 --version
 3. **Run any Python file**:
 ```bash
 python filename.py
-```
-
-## 📁 File Structure
-
-```
-python-basics-guide/
-│
-├── 01_basics.py              # Hello World, comments, I/O, variables
-├── 02_data_types.py          # All Python data types with examples
-├── 03_strings_basic.py       # String creation, indexing, looping
-├── 04_string_slicing.py      # Complete slicing operations
-├── 05_string_methods.py      # Modification methods (upper, lower, strip, etc.)
-├── 06_string_concatenation.py # All concatenation techniques
-├── 07_string_formatting.py   # F-strings, format(), % operator
-├── 08_escape_characters.py   # All escape sequences
-├── 09_string_methods_all.py  # Complete reference of 40+ methods
-└── README.md                 # This file
 ```
 
 ## 💡 Code Examples
