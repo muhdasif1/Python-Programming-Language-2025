@@ -38,3 +38,11 @@ print(f"Ninth car: {car_list[8]}")
 print(f"Tenth car: {car_list[9]}")
 
 print("\n" + "=" * 50)
+
+
+# insert() Method Example
+print("\n🏠 Inserting Elements into a List:")
+houses = ["House A", "House B", "House C", "House D"]
+houses.insert(2, "House X")  # Insert "House X" at index 2
+houses.insert(0, "House Y")  # Insert "House Y" at the beginning
+print(houses)
