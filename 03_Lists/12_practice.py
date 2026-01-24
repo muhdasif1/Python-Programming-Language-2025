@@ -15,9 +15,9 @@ print(f"Second bro: {members[2]}")
 print(f"Second sister: {members[3]}")
 print(f"Third bro: {members[4]}")
 print(f"Third brother: {members[5]}")
+print(members[-1])
 
 print("\n" + "=" * 50)
-
 # Car Collection
 print("\n🚗 Car Collection:")
 car_list = ["BMW", "Audi", "Mercedes", "Ferrari", "Lamborghini", 
