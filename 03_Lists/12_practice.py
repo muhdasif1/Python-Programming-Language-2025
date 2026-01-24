@@ -46,3 +46,26 @@ houses = ["House A", "House B", "House C", "House D"]
 houses.insert(2, "House X")  # Insert "House X" at index 2
 houses.insert(0, "House Y")  # Insert "House Y" at the beginning
 print(houses)
+print("\n" + "=" * 50)
+
+
+# Remove() Method Example
+print("\n🛠️ Removing Elements from a List:")
+tools = ["Hammer", "Screwdriver", "Wrench", "Pliers", "Drill"]
+tools.remove("Wrench")  # Remove "Wrench" from the list
+print(tools)
+
+people = ["Alice", "Bob", "Charlie", "David"]
+del people[0]  # Remove "Charlie" from the list
+print(people)
+print("\n" + "=" * 50)
+
+
+car_collection = ["Toyota", "Honda", "Ford", "BMW", "Audi"]
+print(car_collection)
+print("\n🚙 Car Collection Before Removal:")
+car_collection.remove("Ford")  # Remove "Ford" from the list
+del car_collection[1]  # Remove the second car (index 1)
+print(car_collection)
+print("\n" + "=" * 50)
+
