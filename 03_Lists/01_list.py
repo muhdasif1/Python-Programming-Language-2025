@@ -16,8 +16,11 @@ print(len(this_list2))
 
 # Lists with different data types
 string_list = ["apple", "banana", "cherry"]
+print(string_list)
 number_list = [1, 5, 7, 9, 3]
+print(number_list)
 boolean_list = [True, False, False]
+print(boolean_list)
 
 # Mixed data type list
 mixed_list = ["abc", 34, True, 40, "male"]
