@@ -1,3 +1,4 @@
+print()
 print("Accessing an item by index (positive indexing)")
 items = ["pen", "pencil", "eraser"]
 print(items[0])
