@@ -1,6 +1,6 @@
 print("Accessing an item by index (positive indexing)")
 items = ["pen", "pencil", "eraser"]
-print(ite6ms[0])
+print(items[0])
 print(items[1])   # Output: pencil
 print(items[2])
 print("*****************************************************")
