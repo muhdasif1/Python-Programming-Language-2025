@@ -15,8 +15,6 @@ items[1] = "marker"
 # Print the updated list
 print("List after changing the second item:")
 print(items)
-# Final Output: ['pen', 'marker', 'eraser']
-
 
 # --------------------------------------- #
 # Example 2: Change a range of item values
@@ -35,9 +33,6 @@ items[1:3] = ["marker", "highlighter"]
 # Print the updated list
 print("List after changing a range of items:")
 print(items)
-# Final Output:
-# ['pen', 'marker', 'highlighter', 'notebook', 'sharpener', 'ruler']
-
 
 # --------------------------------------------------- #
 # Example 3: Replace one item with multiple new items
@@ -56,6 +51,3 @@ items[1:2] = ["marker", "highlighter"]
 # Print the updated list
 print("List after replacing one item with multiple items:")
 print(items)
-# Final Output:
-# ['pen', 'marker', 'highlighter', 'eraser']
-# --------------------------------------------------- #
