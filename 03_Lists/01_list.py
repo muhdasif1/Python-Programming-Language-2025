@@ -1,10 +1,10 @@
 # Creating and printing a list
-name: list[str] = ["Muhammad", "Asif", "Nouroz", "Moeez"]
+name: list[str] = ["Muhammad", "Asif", "Azan Alam", "Nouroz", "Moeez", "Raza Jani"]
 print(name)
 
 # Another list example
-this_list : list[str] = ["Apple", "Banana", "Cherry","Orange", "Mango"]
-print(this_list)
+fruits : list[str] = ["Apple", "Banana", "Cherry","Orange", "Mango"]
+print(fruits)
 
 # List with duplicate values
 fruits_with_duplicates : list[str] = ["apple", "banana", "cherry", "apple", "cherry"]
