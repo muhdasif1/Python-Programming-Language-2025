@@ -6,12 +6,8 @@
 # Step 2: Calculate BMI
 # BMI is equal to the person's weight divided by the person's height squared.
 # Step 3: Display the result (rounded to 2 decimal places)
-weight = float(input("Enter your weight in kilograms: "))
-height = float(input("Enter your height in meters: "))
 bmi = weight / (height * height)
 print("Your BMI is:", round(bmi, 2))
-
-
 # 🎯 Bonus Challenge: BMI Category
 if bmi < 18.5:
     print("Category: Underweight")
