@@ -1,5 +1,5 @@
 # Creating and printing a list
-name: list[str] = ["Muhammad", "Asif", "Azan Alam", "Nouroz", "Moeez", "Raza Jani"]
+name: list[str] = ["Muhammad Asif", "Azan Alam", "Nouroz", "Moeez", "Raza Jani"]
 print(name)
 
 # Another list example
