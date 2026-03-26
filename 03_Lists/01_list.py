@@ -17,8 +17,10 @@ print(len(this_list2))
 # Lists with different data types
 string_list: list[str] = ["apple", "banana", "cherry"]
 print(string_list)
+
 number_list: list[int] = [1, 5, 7, 9, 3]
 print(number_list)
+
 boolean_list : list[bool] = [True, False, False]
 print(boolean_list)
 
