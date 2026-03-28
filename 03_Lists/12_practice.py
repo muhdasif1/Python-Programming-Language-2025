@@ -69,3 +69,10 @@ del car_collection[1]  # Remove the second car (index 1)
 print(car_collection)
 print("\n" + "=" * 50)
 
+names1 : list = ["Muhammad asif", "Azan Alam", "Nouroz", "Moeez"]
+names2 : list = ["Usman", "Faisal", "Hammad", "Shiro", "Shery", "saeed"]
+names1.remove("Azan Alam")
+names1[0]="Adil Nawaz"
+print(names1)
+names2.clear()
+print(names2)
