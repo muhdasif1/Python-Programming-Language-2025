@@ -4,7 +4,7 @@ print("=" * 50)
 
 # Family Members
 print("\n👨‍👩‍👧‍👦 Family Members:")
-members = ["Asif", "Gul", "Ayesha", "Aatif", "Shayan"]
+members = ["Asif", "Gul", "Ayesha", "Atif", "Shayan"]
 members.append("Koko")
 print(members)
 
