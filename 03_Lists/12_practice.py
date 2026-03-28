@@ -76,3 +76,4 @@ names1[0]="Adil Nawaz"
 print(names1)
 names2.clear()
 print(names2)
+print("\n" + "=" * 50)
