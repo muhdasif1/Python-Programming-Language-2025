@@ -20,6 +20,7 @@ This folder contains a complete beginner-friendly guide to **Python Lists**. Eac
 ├── 09_copy_list.py           # Copying lists
 ├── 10_join_list.py           # Joining lists
 ├── 11_list_methods.py        # All list methods
+├── 12_practice.py
 └── README.md
 ```
 
