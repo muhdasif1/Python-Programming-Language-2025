@@ -14,8 +14,7 @@ tropical = ["mango", "pineapple", "papaya"]
 thislist.extend(tropical)
 print(thislist)
 
-# Extend list with a tuple
-thislist = ["apple", "banana", "cherry"]
-thistuple = ("kiwi", "orange")
-thislist.extend(thistuple)
-print(thislist)
+name1: list = ["Muhammad asif", "moeez khan", "Nouroz"]
+name2: list = ["Usman", "Ahmad", "Raza", "Shery"]
+name1.extend(name2)
+print(name1)
