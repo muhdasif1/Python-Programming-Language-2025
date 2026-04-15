@@ -3,6 +3,7 @@ print("Append item")
 thislist = ["apple", "banana", "cherry"]
 thislist.append("orange")
 thislist.append("Watermelon")
+thislist.append("Guava")
 print(thislist)
 print()
 
