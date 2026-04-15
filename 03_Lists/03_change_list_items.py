@@ -14,6 +14,9 @@ items[1] = "marker"
 print("List after changing the second item:")
 print(items)
 
+
+
+
 # Example 2: Change a range of item values
 
 # Create a new list of stationery items
@@ -29,6 +32,9 @@ items[1:3] = ["marker", "highlighter"]
 # Print the updated list
 print("List after changing a range of items:")
 print(items)
+
+
+
 
 # Example 3: Replace one item with multiple new items
 
