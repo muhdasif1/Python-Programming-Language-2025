@@ -1,4 +1,3 @@
-
 # Variable declaration and assignment
 name: str = "Asif"
 age: int = 20
@@ -11,6 +10,7 @@ print(marks)
 print(is_student)
 
 # Multiple assignment
+print("Multiple assignment")
 x, y, z = 10, 20, 30
 print(x, y, z)
 
