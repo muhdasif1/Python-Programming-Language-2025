@@ -13,6 +13,7 @@ price = float(input("Enter price: "))
 print("Price is:", price)
 
 # Simple calculator
+print("This is Simple calculator for addition")
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 print("Sum =", a + b)
