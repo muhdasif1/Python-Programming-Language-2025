@@ -1,31 +1,32 @@
-# Restaurant Ordering System
+from datetime import datetime
 
-menu = {
-    "Burger": 500,
-    "Pizza": 1200,
-    "Fries": 300,
-    "Drink": 150
-}
+tasks = []
 
-print("=== Welcome to Restaurant ===")
+while True:
+    print("\n=== Daily Agent ===")
+    print("1. Show Date")
+    print("2. Add Task")
+    print("3. View Tasks")
+    print("4. Exit")
 
-customer_name = input("Enter your name: ")
+    choice = input("Choose option: ")
 
-print("\nMenu:")
-for item, price in menu.items():
-    print(f"{item} - Rs.{price}")
+    if choice == "1":
+        print("Today's Date:", datetime.now().strftime("%Y-%m-%d"))
 
-item_name = input("\nEnter item name: ")
+    elif choice == "2":
+        task = input("Enter task: ")
+        tasks.append(task)
+        print("Task added!")
 
-if item_name in menu:
-    quantity = int(input("Enter quantity: "))
-    
-    total_bill = menu[item_name] * quantity
-    
-    print("\n===== Order Summary =====")
-    print("Customer:", customer_name)
-    print("Item:", item_name)
-    print("Quantity:", quantity)
-    print("Total Bill: Rs.", total_bill)
-else:
-    print("Item not available!")
+    elif choice == "3":
+        print("\nYour Tasks:")
+        for i, task in enumerate(tasks, start=1):
+            print(f"{i}. {task}")
+
+    elif choice == "4":
+        print("Goodbye!")
+        break
+
+    else:
+        print("Invalid option!")
