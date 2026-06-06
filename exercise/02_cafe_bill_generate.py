@@ -14,7 +14,7 @@
 - Customer Name: Ayesha Coffee: $2.5 Sandwich: $4.0 Cake: $3.0
 - Total Bill: $9.5
 
-💡 Bonus Challenge (Optional)
+Bonus Challenge (Optional)
 Add a line that thanks the customer:
 print("Thank you for visiting our café,", customer_name + "!")
 Expected Output: Thank you for visiting our café, Muhammad Asif!
