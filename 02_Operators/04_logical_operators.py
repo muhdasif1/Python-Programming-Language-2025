@@ -1,6 +1,5 @@
-# ========================================
 # Python Logical Operators
-# ========================================
+
 
 # Declare boolean variables
 x = True
