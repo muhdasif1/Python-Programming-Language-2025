@@ -1,6 +1,5 @@
-# ========================================
 # Python Arithmetic Operators
-# ========================================
+
 
 # Declare two numbers
 a : int = 10
