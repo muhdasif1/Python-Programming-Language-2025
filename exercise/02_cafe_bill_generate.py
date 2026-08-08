@@ -1,8 +1,8 @@
 """ 
-☕ Use Case 2: Café Bill Generator
-🎯 Goal Create a simple Python program that calculates and displays a customer’s café bill.
+Use Case 2: Café Bill Generator
+Goal Create a simple Python program that calculates and displays a customer’s café bill.
 
-🧠 Instructions
+Instructions
 > Create variables for:
 - coffee_price (float)
 - sandwich_price (float)
