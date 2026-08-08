@@ -1,6 +1,4 @@
-# ========================================
 # Python Bitwise Operators
-# ========================================
 
 # Declare two numbers
 a = 5   # binary: 0101
