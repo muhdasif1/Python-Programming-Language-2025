@@ -3,8 +3,8 @@
 # ========================================
 
 # Declare two numbers
-a = 10
-b = 3
+a : int = 10
+b : int = 3
 
 # Addition
 add = a + b
