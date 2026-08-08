@@ -46,7 +46,7 @@ This book offers a hands-on, project-based approach to mastering Python programm
 
 
 Use the link below to access and download the Python book free of charge via Google Drive 
-[**Python  book free**](https://drive.google.com/file/d/1nZc0HqA2MEiPl4Dy8IA9KLjnnEpy3W4Q/view?usp=sharing)
+[**Python  book free**](https://drive.google.com/file/d/10MqEXBISOT61v4M7mplaGZu4TzWEqC_r/view?usp=drive_link)
 
 ---
 
