@@ -1,6 +1,5 @@
-# ========================================
 # Python Operator Precedence Examples
-# ========================================
+
 
 # Example 1: Arithmetic precedence
 result1 = 2 + 3 * 4
