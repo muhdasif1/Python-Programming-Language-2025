@@ -1,6 +1,5 @@
-# ========================================
 # Python Membership Operators
-# ========================================
+
 
 # Create a list
 fruits = ["apple", "banana", "cherry"]
