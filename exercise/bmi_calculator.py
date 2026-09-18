@@ -1,4 +1,4 @@
-# 🧮 BMI Calculator
+#  BMI Calculator
 # This program calculates a person's Body Mass Index (BMI)
 # using their weight (kg) and height (meters).
 # Step 1: Ask user for input
