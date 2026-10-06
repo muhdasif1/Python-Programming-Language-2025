@@ -32,4 +32,3 @@ first_name = "Asif"  # Snake case
 FirstName = "Asif"   # Pascal case
 firstName = "Asif"   # Camel case
 print(first_name, FirstName, firstName)
-
