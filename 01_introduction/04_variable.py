@@ -3,6 +3,7 @@ name: str = "Asif"
 age: int = 20
 marks: float = 85.5
 is_student: bool = True
+
 # Printing variables
 print(name)
 print(age)
