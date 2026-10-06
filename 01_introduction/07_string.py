@@ -126,4 +126,3 @@ print()
 txt = "The best things in life are free!"
 print("expensive" not in txt)  # Output: True (because "expensive" is NOT in txt)
 print()
-
