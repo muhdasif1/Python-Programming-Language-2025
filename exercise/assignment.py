@@ -4,8 +4,7 @@
 
 name = input("Enter your first name: ")
 color = input("Enter your favorite color: ")
-print("Hello " + name + "!")
-print("Your favorite color is " + color + ".")
+print (f"Hello {name}!\nYour favorite color is {color}.")
 
 # 2. Age in Months
 
