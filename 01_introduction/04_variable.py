@@ -24,8 +24,9 @@ age = 21
 print(age)
 
 # Variable with calculated value
-total = x + y + z
+total = 500 + 1000 + 1500
 print(total)
+
 # Variable naming conventions
 first_name = "Asif"  # Snake case
 FirstName = "Asif"   # Pascal case
